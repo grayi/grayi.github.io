@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>cloud</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!-- include -->
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/base.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/build.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/nav.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/banner.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/news.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/footer.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/style.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/box.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/animate.css">
+<link href="static/home/default/common/css/ucComponent.css" rel="stylesheet">
+<link href="static/home/default/common/css/ucCommon.css" rel="stylesheet">
+<!-- iconfont -->
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/fontAwesome.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/font/index/iconfont.css">
+<!-- javascript -->
+<script type="text/javascript" src="static/home/default/js/public/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="static/home/default/js/nav/nav.js"></script>
+<script type="text/javascript" src="static/home/default/js/public/Packing.js"></script>
+<script type="text/javascript" src="static/common/default/js/bootstrap.min.js"></script>
+<script src="static/common/default/js/template-web.js"></script>
+<!--对话框-->
+<script src="static/home/default/common/js/plugin/jQuery/dialog/jquery.dialog.js?skin=ucDialog"></script>
+<script src="static/home/default/common/js/common/X.js"></script>
+<!-- 站长代码 -->
+<!--
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?9470f729c1fb4da77f8bf57ba3fd421e";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19360800.js"></script>
+<noscript>
+    <a href=" " target="_blank">
+        <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19360800.asp" style="border:none" />
+    </a>
+</noscript>
+<style>
+a[href$='www.51.la/?19360800']{
+    display:none;
+}
+</style>
+-->
+    <!-- Only -->
+    <link rel="stylesheet" type="text/css" href="static/home/default/css/register/register.css">
+    <script src="static/home/default/common/js/plugin/jQuery/formValidator/jquery.formValidator.js"></script>
+
+</head>
+
+<body>
+    <script>
+    //切换语言
+    $(function () {
+        function getLang() {
+            var Request = GetRequest();
+            if (Request.lang && Request.lang == 'zh-hk') {
+                $('.lyLang1').show();
+                $('.lyLang2').hide();
+            } else {
+                $('.lyLang2').show();
+                $('.lyLang1').hide();
+            }
+        }
+
+        function GetRequest() {
+            var url = location.search;
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        getLang();
+    })
+</script>
+<div class="dropdown">
+</div>
+<nav class="nav">
+    <div class="ly_width ly_display_top">
+        <div class="nav_logo">
+            <a href="/">
+                <img src="static/home/default/img/public/logo.png" ondragstart="return false">
+            </a>
+        </div>
+        <div class="nav_menu">
+            <ul class="floatleft ly_nav_menu ly_display_middle">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li class="ly_active_down">
+                    <a>产品介绍</a>
+                </li>
+                <li>
+                    <a href="#solution">产品优势</a>
+                </li>
+                <li>
+                    <a href="ipprotection.html">实现原理</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+            <ul class="floatright ly_nav_login ly_display_middle" id="">
+                <li class="loginStatus">
+                    <a href="login.html">登录</a><span></span><a href="register.html">注册</a>                </li>
+            </ul>
+            <div class="ly_lang floatright">
+                <a class="lyLang1" href="?lang=zh-cn" style="display:block">
+                    <i class="cloudHome cloudHome-zhongguo"></i>
+                    
+                </a>
+                <a class="lyLang2" href="?lang=zh-hk" style="display:block">
+                    <i class="cloudHome cloudHome-diqiuyi"></i>
+                    英文
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ly_hr"></div>
+    <div class="nav_down">
+        <div class="nav_down_ku">
+            <div class="nav_down_tit"></div>
+            <div class="nav_down_project">
+                <a href="cdn.html">
+                    <span>幻境系统(SDK版)</span>
+                    <div class="nav_hot">
+                        <span>Hot</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>利用人工智能创建的DDoS防火墙,无视任何CC</p>
+                </a>
+            </div>
+            <!-- <div class="nav_down_project">
+                <a href="/ddn.html">
+                    <span>DDN</span>
+                    <div class="nav_new">
+                        <span>新品上线</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p></p>
+                </a>
+            </div> -->
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>幻境系统(CNAME版)</span>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>采用IP跳变技术,实现TCP层反向代理集群转发</p>
+                </a>
+            </div>
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>渗透测试</span>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>进行黑盒白盒测试,对每个细节进行分析修复</p>
+                </a>
+            </div>
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>源码审计</span>
+                    <div class="nav_new">
+                        <span>新品上线</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>快速寻找和解决代码库中的质量和安全问题</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="ly_chat">
+    <a class="ly_chat_i" target="_blank" href="/chat.html">
+        <i class="cloudHome cloudHome-jishuzhichizhichizhinengzhinengfuwufuwukefujishu"></i>
+    </a>
+    <a class="ly_chat_t ly_chat_skype" target="_blank" href="skype:live:3ef0ccfc569e750f?chat">
+        <i class="cloudHome cloudHome-skype"></i>
+        <p class="ly_chat_txt">
+            <i class="cloudHome cloudHome-skype"></i>
+            <span>Skype:64849951</span>
+        </p>
+    </a>
+    <a class="ly_chat_t xcd-top" href="#0">
+        <i class="cloudHome cloudHome-101"></i>
+    </a>
+</div>
+<script>
+    $(function () {
+        $(".xcd-top").click(function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500);
+        });
+    })
+</script>
+    <!-- 组件 -->
+<!-- <div id="contentBox">uuu</div> -->
+<!-- 快捷feedback提示框 -->
+<div class="ui-feedback-layout" id="nyFeedback">
+    <div class="ui-feedback ui-feedback-success">
+        <div class="ui-feedback-icon"></div>
+        <div class="ui-feedback-text">
+            操作成功
+        </div>
+        <span class="ui-feedback-close">&times;</span>
+    </div>
+</div>
+<!-- 异步请求loading效果 -->
+<div id="nyWaitingTip" class="ny-loading-tip">
+    <div class="ny-loading-mask"></div>
+    <div class="ny-loading-box">
+        <div class="loading-tip-head">
+            提示信息
+        </div>
+        <i></i>
+        <div class="loading-tip-text">努力加载中，请稍后......</div>
+    </div>
+</div>
+<!-- 普通提示框，来自 Bootstrap 的 Small modal -->
+<div class="modal fade nytips-modal" tabindex="-1" role="dialog" id="nyTips">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">消息</h4>
+            </div>
+            <div class="modal-body">
+                <!-- 主要内容 -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- loading-tip-head -->
+<div class="container-loading">
+    <div class="spinner1 spinnerMax">
+        <div class="spinner1 spinnerMid">
+            <div class="spinner1 spinnerMin"></div>
+        </div>
+    </div>
+</div>
+<!-- 表格无数据提示 模版 -->
+<script id="nonedataTdTpl" type="text/html">
+    <tr>
+        <td colspan="@@cols@@" class="ny-nonedata-td">
+            <div class="ny-nonedata-wrapper tip-icon-info-middle">
+                <div class="ny-nonedata-text">@@text@@</div>
+                @@if subtext@@
+                <div class="ny-nonedata-subtext">
+                    @@if subtextLink@@
+                    <a href="@@subtextLink@@" target="_blank">@@subtext@@</a> @@else@@ @@subtext@@ @@/if@@
+                </div>
+                @@/if@@
+            </div>
+        </td>
+    </tr>
+</script>
+<!-- 表格无搜索结果提示 模版 -->
+<script id="noneSearchRecordTdTpl" type="text/html">
+    <tr>
+        <td colspan="@@cols@@" class="ny-nonedata-td">
+            <div class="ny-nonedata-wrapper tip-icon-info-large">
+                <div class="ny-nonedata-text">
+                    搜索“@@searchKey@@”的结果为空
+                </div>
+            </div>
+        </td>
+    </tr>
+</script>
+<!-- 分页模板 -->
+<script id="paginationTpl" type="text/html">
+    <div class="clearfix pager-wrapper">
+        <div class="pager-count pull-left">
+            共有
+            <span class="text-primary">
+                @@pager.total@@
+            </span> 条记录
+        </div>
+        <div class="ny-pagination pull-right default-transition-children-fast" id="pager">
+            <span class="page-button pager-first"></span>
+            <span class="page-button pager-prev"></span>
+            <span class="page-number default-transition-children-fast">
+                <!-- <span class="page-button page--current">1</span> -->
+            <span class="page-button">n</span>
+            </span>
+            <span class="page-button pager-next"></span>
+            <span class="page-button pager-last"></span>
+        </div>
+    </div>
+</script>
+<!-- 上传附件模板  attachment-uploading attachment-done -->
+<script type="text/html" id="attachment">
+    <span class="attachment-item attachment-uploading">
+        <a href="#a_null" class="add-cover"></a>
+        <img src="" alt="" data-file_path="">
+        <a class="delete-attachment default-transition text-center" href="#a_null">删除</a>
+        <span class="uploading-tip text-center">上传中...</span>
+    </span>
+</script>
+<!-- 上传附件模板-文档  attachment-uploading attachment-done -->
+<script type="text/html" id="attachment2">
+    <span class="attachment-item-document document-upload">
+        <span class="document-name">上传中...</span>
+    <span class="delete-attachment2">×</span>
+    <!--<span class="uploading-tip text-center">上传中...</span>-->
+    </span>
+</script>
+<script>
+// $(function() {
+//     NY.proxyRenderer.renderContent();
+// })
+</script>
+
+    <form onsubmit="return false" id="register">
+        <div class="ly_register">
+            <p>欢迎注册帐号</p>
+            <div>
+                <input type="text" placeholder="请输入邮箱" id="eail" disableautocomplete autocomplete="false"/>
+                <div class="" id="eailTip"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="设置你的登陆密码" id="pass" disableautocomplete autocomplete="false"/>
+                <div class="" id="passTip"></div>
+            </div>
+            <div>
+                <input type="password" placeholder="请再次输入您的登录密码" id='password' disableautocomplete autocomplete="false" />
+                <div class="" id="passwordTip"></div>
+            </div>
+            <div>
+                <div class="vertifyImg">
+                    <img src="do/getCode" onclick="this.src='do/getCode'">
+                </div>
+                <input type="text" placeholder="请输入验证码" id='vertify' maxlength="6" class="vertify" disableautocomplete autocomplete="false" />
+                <div class="" id="vertifyTip"></div>
+            </div>
+            <div class="ly_button">
+                <button type="submit" id="Submit">注册</button>
+            </div>
+            <div class="ly_agreement">
+                <div class="checkbox">
+                    <input id="checkbox1" class="styled" type="checkbox">
+                    <label for="checkbox1">
+                        我已阅读并同意                        <a href=""></a>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+    <footer class="ly_login_footer" style="padding-top: 80px;">
+    <div class="ly_footer_copy ly_width">
+        <P>Copyright 2017 All Rights Reserved. CleverCloud Copyright.</P>
+    </div>
+</footer>
+    <script src="static/home/default/js/public/xjax.js"></script>
+    <script src="static/home/default/js/public/xrouter.js"></script>
+    <script src="static/home/default/js/register/register.js"></script>
+</body>
+
+</html>

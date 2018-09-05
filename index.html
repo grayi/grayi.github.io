@@ -1,898 +1,755 @@
-﻿<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>棋牌盾 - 重新定义互联网安全_新一代抗DDoS攻击解决方案</title>
-        <meta name="description" content="游戏盾|游戏防御|分布式集群|节点机防御|云防护|游戏安全维护">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+<head>
+    <meta charset="utf-8">
+    <title>幻境云防御系统</title>
+    <meta name="keywords" content="无限防云服务器,抗攻击服务器,流量清洗,ddos防护,cc防护, cloud.cc" />
+    <meta name="description" content="平台无限防云服务器,抗ddos攻击服务器,网络攻击ddos防护,cc防护,彻底阻断ddos攻击,无上限流量清洗能力,创新cc防护规则,打造ddos防护安全保障体系"
+    /> <!-- include -->
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/base.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/build.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/nav.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/banner.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/news.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/footer.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/style.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/box.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/animate.css">
+<link href="static/home/default/common/css/ucComponent.css" rel="stylesheet">
+<link href="static/home/default/common/css/ucCommon.css" rel="stylesheet">
+<!-- iconfont -->
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/fontAwesome.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/font/index/iconfont.css">
+<!-- javascript -->
+<script type="text/javascript" src="static/home/default/js/public/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="static/home/default/js/nav/nav.js"></script>
+<script type="text/javascript" src="static/home/default/js/public/Packing.js"></script>
+<script type="text/javascript" src="static/common/default/js/bootstrap.min.js"></script>
+<script src="static/common/default/js/template-web.js"></script>
+<!--对话框-->
+<script src="static/home/default/common/js/plugin/jQuery/dialog/jquery.dialog.js?skin=ucDialog"></script>
+<script src="static/home/default/common/js/common/X.js"></script>
+<!-- 站长代码 -->
+<!--
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?9470f729c1fb4da77f8bf57ba3fd421e";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19360800.js"></script>
+<noscript>
+    <a href=" " target="_blank">
+        <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19360800.asp" style="border:none" />
+    </a>
+</noscript>
+<style>
+a[href$='www.51.la/?19360800']{
+    display:none;
+}
+</style>
+-->
+    <!-- Only -->
+    <link rel="stylesheet" type="text/css" href="static/home/default/css/index/index.css">
+    <script type="text/javascript" src="static/home/default/js/index/g_Style.js"></script>
 
-        <!-- Main Menu CSS -->      
-        <link rel="stylesheet" href="css/meanmenu.min.css">
+</head>
 
-        <!-- Normalize CSS --> 
-        <link rel="stylesheet" href="css/normalize.css">
+<body>
+    <script>
+    //切换语言
+    $(function () {
+        function getLang() {
+            var Request = GetRequest();
+            if (Request.lang && Request.lang == 'zh-hk') {
+                $('.lyLang1').show();
+                $('.lyLang2').hide();
+            } else {
+                $('.lyLang2').show();
+                $('.lyLang1').hide();
+            }
+        }
 
-        <!-- Main CSS -->         
-        <link rel="stylesheet" href="css/main.css">
-
-        <!-- Bootstrap CSS --> 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-
-        <!-- Font-awesome CSS-->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-
-        <!-- Animate CSS --> 
-        <link rel="stylesheet" href="css/animate.min.css">
-
-        <!-- Font-flat CSS-->
-        <link rel="stylesheet" href="fonts/flaticon.css">
-
-        <!-- Owl Caousel CSS -->
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
-
-        <!-- nivo slider CSS -->
-        <link rel="stylesheet" href="vendor/slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="vendor/slider/css/preview.css" type="text/css" media="screen" />
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="style.css">
-
-
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <!-- Add your site or application content here -->
-        <div class="wraper">
-            <header>                
-                <div class="header-one">
-                    <div class="header-top-area" id="sticker">
-                        <div class="container">
-                            <div class="row">                         
-                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                    <div class="logo-area">
-									
-									
-                                        <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a> 
-                                    </div>
-                                </div>  
-                                <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
-                                    <div class="main-menu">
-                                        <nav>
-                                            <ul>
-                                                <li><a href="#">主页</a></li>
-												<li><a href="#about">产品优势</a></li>
-												<li><a href="#qipaidun">产品特点</a></li>
-												<li><a href="#prices">产品价格</a></li>
-												<li><a href="about.html">原理介绍</a></li>
-						                                                <li><a href="#contact">联系方式</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>   
-                                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
-                                    <div class="header-top-right">
-                                        <ul>
-                                            <li>
-                                                <div class="header-top-search search-box">
-                                                    <form>
-                                                    <input class="search-text" type="text"  placeholder="Search Here..." >
-                                                    <a class="search-button" href="#">
-                                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                                    </a>
-                                                    </form>
-                                                </div>
-                                            </li>
-											<!-- 
-                                            <li>
-                                                <a href="#" class="cart-area floatright">
-                                                    <i class="flaticon-commerce"></i><span>2</span>
-                                                </a>
-                                                <ul class="chart-scroll">
-                                                    <li>
-                                                        <div class="cart-single-product">
-                                                            <div class="media">
-                                                            <div class="pull-left cart-product-img">
-                                                                <a href="#">
-                                                                    <img class="media-object" src="img/product/product3.jpg" alt="product">
-                                                                </a>
-                                                            </div>
-                                                            <div class="media-body cart-content">
-                                                                <h4 class="media-heading"><a href="#">Product Title Here</a></h4>
-                                                                <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
-                                                                <p>Quantity : 1</p>
-                                                                <div class="cart-product-price">
-                                                                    <span>$49</span>
-                                                                </div>
-                                                            </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="cart-single-product">
-                                                            <div class="media">
-                                                            <div class="pull-left cart-product-img">
-                                                                <a href="#">
-                                                                    <img class="media-object" src="img/product/product2.jpg" alt="product">
-                                                                </a>
-                                                            </div>
-                                                            <div class="media-body cart-content">
-                                                                <h4 class="media-heading"><a href="#">Product Title Here</a></h4>
-                                                                <a href="#" class="trash"><i class="fa fa-trash-o"></i></a>
-                                                                <p>Quantity : 1</p>
-                                                                <div class="cart-product-price">
-                                                                    <span>$99</span>
-                                                                </div>
-                                                            </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="checkout.html" class="checkout-button">Checkout</a></li>        
-                                                </ul>
-                                            </li> -->
-                                            <li>
-                                                <div class="additional-menu-area" id="additional-menu-area">
-                                                    <div id="mySidenav" class="sidenav">
-                                                        <a href="#" class="closebtn">×</a>
-                                                        <div class="sidenav-search">
-                                                            <div class="input-group stylish-input-group">
-                                                                <input type="text" placeholder="Search Here . . ." class="form-control">
-                                                                <span class="input-group-addon">
-                                                                    <button type="submit">
-                                                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                                                    </button> 
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <ul class="sidenav-nav">
-                                                 <li><a href="#">主页</a></li>
-												<li><a href="#about">产品优势</a></li>
-												<li><a href="#qipaidun">产品特点</a></li>
-												<li><a href="#prices">产品价格</a></li>
-												<li><a href="about.html">原理介绍</a></li>
-								                                <li><a href="#contact">联系方式</a></li>
-                                                        </ul><!-- times-->
-                                                    </div>
-                                                    <span class="side-menu-open side-menu-trigger"><i class="fa fa-bars" aria-hidden="true"></i></span>
-                                                </div> 
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div> 
-                            </div>                          
-                        </div> 
-                    </div>
-                </div>
-                <!-- mobile-menu-area start -->
-                <div class="mobile-menu-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mobile-menu">
-                                    <nav id="dropdown">
-                                        <ul>
-                                                <li><a href="#">主页</a></li>
-												<li><a href="#about">产品优势</a></li>
-												<li><a href="#qipaidun">产品特点</a></li>
-												<li><a href="#prices">产品价格</a></li>
-												<li><a href="about.html">原理介绍</a></li>
-						                                                <li><a href="#contact">联系方式</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>                  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- mobile-menu-area end --> 
-            </header>
-            <!-- Header Area End Here -->
-            <!-- Slider 1 Area Start Here -->               
-            <div class="slider-default slider-overlay">
-                <div class="bend niceties preview-1">
-                    <div id="ensign-nivoslider-3" class="slides">   
-                        <img src="img/slider/slide1_1.jpg" alt="slider" title="#slider-direction-1">
-                        <img src="img/slider/slide1_2.jpg" alt="slider" title="#slider-direction-2">
-                        <img src="img/slider/slide1_3.jpg" alt="slider" title="#slider-direction-3">
-                    </div>
-                    <div id="slider-direction-1" class="t-cn slider-direction">
-                        <div class="slider-content s-tb slide-1 container">
-                            <div class="title-container s-tb-c">
-                                <h1>棋牌盾</h1>
-                                <p>采用新一代的分布式防御技术，可以有效抵御DDoS、CC攻击，同时可以实现源IP隐藏，提供BGP网络加速功能。可广泛适用于端游、手游等应用场景.</p>
-                                <div class="slider-btn-area">
-                                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=167651763&amp;site=qq&amp;menu=yes" class="ghost-btn">联系我们</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="slider-direction-2" class="t-cn slider-direction">
-                        <div class="slider-content s-tb slide-2 container">
-                             <div class="title-container s-tb-c">
-                                <h1>性价比高，防御效果好</h1>
-                                <p>和传统高防服务器相比，棋牌盾具有明显的高性价比，在遭受DDoS攻击时，云防体系也比传统的单点防御有更好的防御效果！</p>
-                                <div class="slider-btn-area">
-                                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=167651763&amp;site=qq&amp;menu=yes" class="ghost-btn">联系我们</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="slider-direction-3" class="t-cn slider-direction">
-                        <div class="slider-content s-tb slide-3 container">
-                             <div class="title-container s-tb-c">
-                                <h1>攻击溯源 精准定位</h1>
-                                <p>自主研发的入侵追踪技术，对攻击来源进行精准定位，将不法分子绳子以法！</p>
-                                <div class="slider-btn-area">
-                                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=167651763&amp;site=qq&amp;menu=yes" class="ghost-btn">联系我们</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            <!-- Slider 1 Area End Here -->
-            <!-- Home one service Start Here -->
-            <div id="about" class="home-one-service padding-top-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon teal">
-                                    <a><i class="flaticon-target"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">安全可靠</a></h3>
-                                    <p>棋牌盾使用先进的分布式防御体系，可以有效降低DDoS攻击的威胁，保障客户的业务安全可靠的运行.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon red">
-                                    <a><i class="flaticon-graphic-1"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">多平台支持</a></h3>
-                                    <p>支持Windows、Android、iOS平台，支持HTTP、TCP、UDP等协议.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon blue">
-                                    <a><i class="flaticon-mail"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">降低成本</a></h3>
-                                    <p>传统的高防服务器价格高昂，而且付费不够灵活。使用棋牌盾对您的应用进行防护，可以大幅降低您的服务器和防御成本</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Home one service End Here -->
-            <!-- Checkout Start Here -->
-            <div class="check-out-area padding-top-bottom">
-                <div class="container">
-                    <form class="checkout" id="checkoutForm">
-                        <fieldset>
-                            <!-- Form Name -->
-                            <h2>留下您的联系方式, 方便与您联系</h2>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <input id="form-name" name="url" placeholder="您的联系电话 ..." class="form-control input-md" type="text">
-                            </div>
-                            <!-- Text input-->
-                            <div class="form-group">
-                                <input id="form-email" name="email" placeholder="您的邮箱地址 ..." class="form-control input-md" type="text">
-                            </div>
-                            <div class="form-group send-button">
-                                <button type="submit" class="btn-read-more-fill btn-send">提交</button>
-                            </div>
-                        </fieldset>
-                        <div class='form-response'></div>
-                    </form>
-                </div>
-            </div>
-            <!-- Checkout End Here -->
-            <!-- About SEO start Here -->
-            <div class="about-seo-one padding-top-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="content-part">
-                                <h2>关于棋牌盾</h2>
-                                <p>棋牌盾使用先进的防御体系，攻击者所有的请求都会进入虚拟防护节点上，通过每个节点自带的安全防护功能， 进行流量清洗过滤，真实的服务器始终隐藏在棋牌盾的防护之下，避免黑客对其发动攻击。由于使用分布式的防御体系，可以轻松瓦解大流量攻击。</p>
-                                <a class="ghost-btn" href="#">点击购买</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="image-part">
-                                <img src="img/what_seo_img.png" alt="what seo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About SEO End Here -->
-            <!-- Take our service Start Here -->
-            <div id="qipaidun" class="take-our-service">
-                <div class="container">
-                    <div class="row">
-                        <div class="title-section">
-                            <h2>产品特点</h2>
-                            <p>我们根据多年服务游戏平台的经验, 收集大量攻击样本及案例, 针对深度防御制定了整体安全解决方案</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon teal">
-                                    <a><i class="flaticon-graphic"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">隐藏源服务器IP</a></h3>
-                                    <p>隐藏用户源站信息，真实的源IP无法被黑客获取，避免黑客对其发动各类攻击</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon red">
-                                    <a><i class="flaticon-target"></i></a>
-                                </div>
-                                <div  class="media content">
-                                    <h3><a href="#">节点无缝切换</a></h3>
-                                    <p>在节点遭受攻击或者玩家网络闪断的情况下，可以实现无缝切换节点，保证玩家不掉线，业务不受影响。</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon blue">
-                                    <a><i class="flaticon-light-bulb"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">分布式防御体系</a></h3>
-                                    <p>通过分布式的虚拟节点将业务分散部署，将DDoS/CC攻击给业务带来的影响降到最低（适用C/S架构应用） </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon grey">
-                                    <a><i class="flaticon-mail"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">攻击溯源</a></h3>
-                                    <p>攻击溯源，精准定位攻击来源，将任何不法分子绳子以法 </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon yellow">
-                                    <a><i class="flaticon-share"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">BGP网络加速</a></h3>
-                                    <p>使用多线BGP网络，对正常用户的网络访问进行加速，极大提升用户体验 </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-service">
-                                <div class="pull-left icon green">
-                                    <a><i class="flaticon-headphones"></i></a>
-                                </div>
-                                <div class="media content">
-                                    <h3><a href="#">防域名劫持</a></h3>
-                                    <p>棋牌盾可以有效解决客户端环境下的域名劫持问题 </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Take our service End Here -->
-            <!-- Counter section Start Here -->
-            <div class="counter-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="counter-box">
-                                <div class="single-counter">
-                                    <a href="#" class="pull-left">
-                                        <i class="flaticon-handshake"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h2 class="about-counter" data-num="237">237</h2>
-                                        <p>合作客户</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="counter-box">
-                                <div class="single-counter">
-                                    <a href="#" class="pull-left">
-                                        <i class="flaticon-graphic-1"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h2 class="about-counter" data-num="3090">3,090</h2>
-                                        <p>实现目标</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="counter-box">
-                                <div class="single-counter">
-                                    <a href="#" class="pull-left">
-                                        <i class="flaticon-share"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h2 class="about-counter" data-num="2050">2,050</h2>
-                                        <p>节点数量</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="counter-box">
-                                <div class="single-counter">
-                                    <a href="#" class="pull-left">
-                                        <i class="flaticon-headphones"></i>
-                                    </a>
-                                    <div class="media-body">
-                                        <h2 class="about-counter" data-num="9000">9,000</h2>
-                                        <p>拦截攻击</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Counter section End Here -->
-            <!-- Recent case studies Start Here 
-            <div class="recent-case-studies padding-two-top-bottom">
-                <div class="container">
-                    <div class="title-section">
-                        <h2>Recent Case Studies</h2>
-                        <p>Timply dummy text the printing typesetting industry</p>
-                    </div>
-                    <div class="rc-carousel"
-                        data-loop="true"
-                        data-items="3"
-                        data-margin="30"
-                        data-autoplay="true"
-                        data-autoplay-timeout="5000"
-                        data-smart-speed="2000"
-                        data-dots="true"
-                        data-nav="false"
-                        data-nav-speed="false"
-                        data-r-x-small="1"
-                        data-r-x-small-nav="false"
-                        data-r-x-small-dots="true"
-                        data-r-small="2"
-                        data-r-small-nav="false"
-                        data-r-small-dots="true"
-                        data-r-medium="3"
-                        data-r-medium-nav="true"
-                        data-r-medium-dots="false">
-                        <div class="single-case-item">
-                            <div class="case-image">
-                                <a href="#"><img src="img/casestudies/case1.jpg" alt="case"></a>
-                                <div class="overly"><a href="#">Details</a></div>
-                            </div>
-                            <div class="case-content">
-                                <h3><a href="#">Content Strategy</a></h3>
-                                <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="single-case-item">
-                            <div class="case-image">
-                                <a href="#"><img src="img/casestudies/case2.jpg" alt="case"></a>
-                                <div class="overly"><a href="#">Details</a></div>
-                            </div>
-                            <div class="case-content">
-                                <h3><a href="#">Top SEO Experts</a></h3>
-                                <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="single-case-item">
-                            <div class="case-image">
-                                <a href="#"><img src="img/casestudies/case3.jpg" alt="case"></a>
-                                <div class="overly"><a href="#">Details</a></div>
-                            </div>
-                            <div class="case-content">
-                                <h3><a href="#">Marketing Stactics</a></h3>
-                                <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="single-case-item">
-                            <div class="case-image">
-                                <a href="#"><img src="img/casestudies/case1.jpg" alt="case"></a>
-                                <div class="overly"><a href="#">Details</a></div>
-                            </div>
-                            <div class="case-content">
-                                <h3><a href="#">Content Strategy</a></h3>
-                                <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                        <div class="single-case-item">
-                            <div class="case-image">
-                                <a href="#"><img src="img/casestudies/case2.jpg" alt="case"></a>
-                                <div class="overly"><a href="#">Details</a></div>
-                            </div>
-                            <div class="case-content">
-                                <h3><a href="#">Marketing Stactics</a></h3>
-                                <p>Borem ipsum dolor samnsectetur adipis cin elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div> -->
-            <!-- Recent case studies End Here -->
-            <!-- Seo premium feature Start Here -->
-            <div class="premium-feature-one">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <div class="premium-content">
-                                <h3>我们还提供<span>安全运维</span>的外包服务</h3>
-                                <p>我方可根据客户要求, 给您派遣专属工程师, 工作内容及时间完全由您自由支配</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="premium-button">
-                                <a class="default-button-btn" href="http://wpa.qq.com/msgrd?v=3&amp;uin=992687623&amp;site=qq&amp;menu=yes">联系商务洽谈</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Seo premium feature End Here -->
-            <!-- Our pricing plans Start Here -->
-            <div id="prices" class="our-pricing-table padding-two-top-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="title-section">
-                            <h2>产品价格</h2>
-                            <p>所有套餐均支持添加独立的加速节点和高防节点，如需购买更高配置，或添加独立节点，请联系客服</p>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="pricing-table-item pricing-table-one">
-                                <h4>基础版</h4>
-                                <h3>15000元/月</h3>
-                                <ul>
-                                    <li>100个加速节点(共享)</li>
-                                    <li>2个高防节点(共享)</li>
-                                    <li>可防护源机IP 2个</li>
-                                    <li>最大连接数2000</li>
-                                    <li>7x24小时技术支持</li>
-                                </ul>
-                                <a class="default-button-btn" href="#">立即购买</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="pricing-table-item pricing-table-two">
-                                <h4>标准版</h4>
-                                <h3>30000元/月</h3>
-                                <ul>
-                                    <li>300个加速节点(共享)</li>
-                                    <li>4个高防节点(共享)</li>
-                                    <li>可防护源机IP 4个</li>
-                                    <li>最大连接数5000</li>
-                                    <li>7x24小时技术支持</li>
-                                </ul>
-                                <a class="default-button-btn" href="#">立即购买</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="pricing-table-item pricing-table-three">
-                                <h4>高级版</h4>
-                                <h3>80000元/月</h3>
-                                <ul>
-                                    <li>400个加速节点(独享)</li>
-                                    <li>5个高防节点(独享)</li>
-                                    <li>可防护源机IP 6个</li>
-                                    <li>最大连接数(无限制)</li>
-                                    <li>7x24小时专属客服</li>
-                                </ul>
-                                <a class="default-button-btn" href="#">立即购买</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Our pricing plans End Here -->
-            <!-- Happy clients Start Here -->
-            <div class="happy-clients padding-top-bottom">
-                <div class="container">
-                    <div class="title-section">
-                        <h2>来自客户的评价</h2>
-                    </div>
-                    <div class="rc-carousel"
-                        data-loop="true"
-                        data-items="3"
-                        data-margin="30"
-                        data-autoplay="true"
-                        data-autoplay-timeout="5000"
-                        data-smart-speed="2000"
-                        data-dots="true"
-                        data-nav="true"
-                        data-nav-speed="false"
-                        data-r-x-small="1"
-                        data-r-x-small-nav="false"
-                        data-r-x-small-dots="true"
-                        data-r-small="1"
-                        data-r-small-nav="false"
-                        data-r-small-dots="true"
-                        data-r-medium="1"
-                        data-r-medium-nav="true"
-                        data-r-medium-dots="false">
-                        <div class="single-client-item">
-                            <p>我们投入了大量资金使用电信清洗服务，但是防游戏端口CC效果不理想，棋牌盾非常有效的解决了我们的问题，减少了损失。</p>
-                            <h3>某棋牌游戏</h3>
-                            <span class="designation">CEO</span>
-                        </div>
-                        <div class="single-client-item">
-                            <p>我们地推房卡游戏，由于本土竞争激烈，我们经常被流量攻击，服务器IP暴漏在外，因此很容易被锁定目标，使用棋牌盾满足了我们隐藏真实服务器IP和防攻击的需求</p>
-                            <h3>某房卡游戏</h3>
-                            <span class="designation">CEO</span>
-                        </div>
-                        <div class="single-client-item">
-                            <p>新成立的游戏平台，初期就被各种类型的攻击骚扰，玩家流失惨重，由于资金有限，高昂的高防费用很难承受并且效果不明显，使用棋牌盾弹性防御符合我们的需求，同时节省了成本</p>
-                            <h3>某捕鱼游戏平台</h3>
-                            <span class="designation">CEO</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Happy clients End Here -->
-            <!-- Latest blog Start Here  -->
-            <div class="latest-blog-area padding-two-top-bottom">
-                <div class="container menu-list-wrapper">
-                    <div class="row menu-list">
-                        <div class="title-section">
-                            <h2>最新动态</h2>
-                            <p>未来，我们将基于市场需求，继续加强技术创新和产品开发</p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item">
-                            <div class="single-blog-item">
-                                <div class="blog-image">
-                                    <a href="#"><img src="img/blog/blog1.jpg" alt="blog"></a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="date">20<br><span>Oct</span></div>
-                                    <h3><a href="#">针对无法修改源码接入SDK的客户，提供了别名解析方式来使用集群节点。弹性防御，可以将玩家平均分布到集群节点中</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item">
-                            <div class="single-blog-item">
-                                <div class="blog-image">
-                                    <a href="#"><img src="img/blog/blog2.jpg" alt="blog"></a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="date">7<br><span>Aug</span></div>
-                                    <h3><a href="#">与多家知名高防以及云服务器提供商进行了深度合作，节点分布全国各地，为用户提供高效、稳定的优质服务</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item hidden">
-                            <div class="single-blog-item">
-                                <div class="blog-image">
-                                    <a href="#"><img src="img/blog/blog3.jpg" alt="blog"></a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="date">12<br><span>Apr</span></div>
-                                    <h3><a href="#">我们服务定位于游戏领域的安全防护，同时也提供高防服务器的租用，防御高，线路稳定，电信云堤清洗接入</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 menu-item hidden">
-                            <div class="single-blog-item">
-                                <div class="blog-image">
-                                    <a href="#"><img src="img/blog/blog4.jpg" alt="blog"></a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="date">9<br><span>Feb</span></div>
-                                    <h3><a href="#">我们与多家游戏开发公司和游戏平台长期合作，为他们提供全方位，一体化的安全服务保障，深得用户信任</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="loadmore viewall">
-                                <a class="ghost-btn" href="#">查看全部</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <!-- Latest blog End Here -->
-            <!-- Ready to promote Start Here -->
- 
-            
-            <div class="ready-promote-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <div class="content">
-                                <h3>欢迎咨询相关技术细节和遇到的各种问题</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="button-area">
-                                <a class="default-button-btn" href="http://wpa.qq.com/msgrd?v=3&amp;uin=167651763&amp;site=qq&amp;menu=yes">联系客服</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Ready to promote End Here -->
-            <!-- Footer section Start Here -->
-            <div id="contact" class="footer-section-area padding-top-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="title">
-                                <h3>帮助中心</h3>
-                            </div>
-                            <div class="information">
-                                <ul>
-                                    <li><a href="#">用户指南</a></li>
-                                    <li><a href="#">技术指南</a></li>
-                                    <li><a href="#">常见问题</a></li>
-                                    <li><a href="#">备案问题</a></li>
-                                    <li><a href="#">服务条款</a></li>
-                                    <li><a href="#">关于我们</a></li>
-                                    <li><a href="#">投诉建议</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="title">
-                                <h3>其他服务</h3>
-                            </div>
-                            <div class="our-service">
-                                <ul>
-                                    <li><a href="#">安全评估</a></li>
-                                    <li><a href="#">源码审核</a></li>
-                                    <li><a href="#">系统加固</a></li>
-                                    <li><a href="#">数据灾备</a></li>
-                                    <li><a href="#">负载均衡</a></li>
-                                    <li><a href="#">安全培训</a></li>
-                                    <li><a href="#">渗透测试</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="title">
-                                <h3>联系方式</h3>
-                            </div>
-                            <div class="popular-post">
-                                <ul>
-                                    <li>
-                                        <span class="post-date">联系电话</span>
-                                        <a href="#">18695254756</a>
-                                    </li>
-                                    <li>
-                                        <span class="post-date">客服QQ</span>
-                                        <a href="#">167651763</a>
-                                    </li>
-                                    <li>
-                                        <span class="post-date">地址</span>
-                                        <a href="#">山东省青岛市市南区银川西路67号</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="title">
-                                <h3>加入我们</h3>
-                            </div>
-                            <div class="get-quote">
-                                <form>
-                                    <fieldset>
-                                        <!-- Text input-->
-                                        <div class="form-group">
-                                            <input id="quote-name" name="textinput" placeholder="Name*" class="form-control input-md" type="text">
-                                        </div>
-                                        <!-- Text input-->
-                                        <div class="form-group">
-                                            <input id="quote-email" name="textinput" placeholder="E-mail*" class="form-control input-md" type="text">
-                                        </div>
-                                        <!-- Textarea-->
-                                        <div class="form-group">
-                                            <textarea id="textarea" name="textarea" placeholder="Message" class="form-control input-md" rows="3"></textarea>
-                                        </div>
-                                        <div class="form-group send-button">
-                                            <button type="submit" class="ghost-btn btn-send">提交</button>
-                                        </div>
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer section End Here -->
-            <!-- Copyright section Start Here -->
-            <div class="copy-right-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                            <div class="copy-right">
-                                <p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://www.qipaidun.com">棋牌盾工作室</a></p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="social-media">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Copyright section End Here -->
+        function GetRequest() {
+            var url = location.search;
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        getLang();
+    })
+</script>
+<div class="dropdown">
+</div>
+<nav class="nav">
+    <div class="ly_width ly_display_top">
+        <div class="nav_logo">
+            <a href="/">
+                <img src="static/home/default/img/public/logo.png" ondragstart="return false">
+            </a>
         </div>
-        <!-- Preloader Start Here -->
-        <div id="preloader"></div>
-        <!-- Preloader End Here -->
+        <div class="nav_menu">
+            <ul class="floatleft ly_nav_menu ly_display_middle">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li class="ly_active_down">
+                    <a>产品介绍</a>
+                </li>
+                <li>
+                    <a href="index.html#solution">产品优势</a>
+                </li>
+                <li>
+                    <a href="ipprotection.html">实现原理</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+            <ul class="floatright ly_nav_login ly_display_middle" id="">
+                <li class="loginStatus">
+                    <a href="login.html">登录</a><span></span><a href="register.html">注册</a>                </li>
+            </ul>
+            <div class="ly_lang floatright">
+                <a class="lyLang1" href="?lang=zh-cn" style="display:block">
+                    <i class="cloudHome cloudHome-zhongguo"></i>
+                    
+                </a>
+                <a class="lyLang2" href="?lang=zh-hk" style="display:block">
+                    <i class="cloudHome cloudHome-diqiuyi"></i>
+                    英文
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ly_hr"></div>
+    <div class="nav_down">
+        <div class="nav_down_ku">
+            <div class="nav_down_tit"></div>
+            <div class="nav_down_project">
+                <a href="cdn.html">
+                    <span>幻境系统(SDK版)</span>
+                    <div class="nav_hot">
+                        <span>Hot</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>利用人工智能创建的DDoS防火墙,无视任何CC</p>
+                </a>
+            </div>
+            <!-- <div class="nav_down_project">
+                <a href="/ddn.html">
+                    <span>DDN</span>
+                    <div class="nav_new">
+                        <span>新品上线</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p></p>
+                </a>
+            </div> -->
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>幻境系统(CNAME版)</span>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>采用IP跳变技术,实现TCP层反向代理集群转发</p>
+                </a>
+            </div>
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>渗透测试</span>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>进行黑盒白盒测试,对每个细节进行分析修复</p>
+                </a>
+            </div>
+            <div class="nav_down_project">
+                <a href="#">
+                    <span>源码审计</span>
+                    <div class="nav_new">
+                        <span>新品上线</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p>快速寻找和解决代码库中的质量和安全问题</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
 
-        <!-- jquery-->  
-        <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script>
+    $(function () {
+        $(".xcd-top").click(function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500);
+        });
+    })
+</script> <div id="focus-banner" class="Main_Banner">
+    <ul id="focus-banner-list">
+        <li>
+            <div class="focus-banner-text">
+                <div class="Banner_left">
+                    <h1>幻境云防御系统</h1>
+                    <div class="Banner_list">
+                        <span></span>采用新一代的分布式防御技术，可以有效抵御DDoS、CC攻击，同时可以实现源IP隐藏，<br>提供BGP网络加速功能。可广泛适用于端游、手游、电商、金融、物联网等APP应用场景。</div>
+                    <div class="Banner_button">
+                        <a href="cdn.html" data-text="查看详情">
+                            <span>查</span><span>看</span><span>详</span><span>情</span>                        </a>
+                    </div>
+                </div>
+                <div class="Banner_right">
+                    <img src="static/home/default/img/banner/could03.png" style="width:550px; height:380px;">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="focus-banner-text">
+                <div class="Banner_left">
+                    <h1>攻击溯源 精准定位</h1>
+                    <div class="Banner_list">
+                        <span></span>联合阿里云、腾讯云、AWS等云计算厂商，对攻击来源进行精准定位，将不法分子绳子以法！ </div>
+                    <div class="Banner_button">
+                        <a href="dns.html" data-text="查看详情">
+                            <span>查</span><span>看</span><span>详</span><span>情</span>                        </a>
+                    </div>
+                </div>
+                <div class="Banner_rights">
+                    <img src="static/home/default/img/banner/xunyunIndex16.png" style="width:730px; height:300px;">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="focus-banner-text">
+                <div class="Banner_left">
+                    <h1>性价比高，防御效果好！</h1>
+                    <div class="Banner_list">
+                        <span></span>和传统高防服务器相比，棋牌盾具有明显的高性价比，在遭受DDoS攻击时，<br>云防体系也比传统的单点防御有更好的防御效果！</div>
+                    <div class="Banner_button">
+                        <a href="server.html" data-text="查看详情">
+                            <span>查</span><span>看</span><span>详</span><span>情</span>                        </a>
+                    </div>
+                </div>
+                <div class="Banner_right">
+                    <img src="static/home/default/img/banner/could05.png" style="width:570px; height:348px;">
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="focus-banner-text">
+                <div class="Banner_left">
+                    <h1>秒级交付极速体验</h1>
+                    <div class="Banner_list">
+                        <span></span>自主研发的全系统平台，能够秒级交付服务和应用，为你的业务争分夺秒</div>
+                    <div class="Banner_button">
+                        <a href="safety.html" data-text="查看详情">
+                            <span>查</span><span>看</span><span>详</span><span>情</span>                        </a>
+                    </div>
+                </div>
+                <div class="Banner_right">
+                    <img src="static/home/default/img/banner/could04.png" style="width:596px; height:407px;">
+                </div>
+            </div>
+        </li>
+    </ul>
+    <span id="prev-img" class="focus-handle"></span>
+    <ul id="focus-bubble"></ul>
+    <div class="Banner_new">
+        <ul>
+            <li>
+                <a href="">[2017-03-19] 校企合作，研发第二代DDoS云防火墙</a>
+            </li>
+            <li>
+                <a href="">[2017-10-26] 发布新一代DDoS产品-幻境云防御系统</a>
+            </li>
+            <li>
+                <a href="">[2018-09-5] 全球节点服务器遍布多个国家</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    <div class="service service_id">
+        <ul class="ly_width ly_display_top" id="service_li">
+            <li class="static animated fadeInUp">
+                <i class="cloudHome cloudHome-NoSQLshujukuredis"></i>
+                <span>弹性资源</span>
+                <p>按需付费，加速防护资源，一键弹性扩充</p>
+            </li>
+            <li class="static_1 animated fadeInUp">
+                <i class="cloudHome cloudHome-anquanfanghu"></i>
+                <span>加速与防护</span>
+                <p>布局全球加速节点，AI技术支持CC防护</p>
+            </li>
+            <li class="static_2 animated fadeInUp">
+                <i class="cloudHome cloudHome-wangluo2"></i>
+                <span>高效网络</span>
+                <p>国内外顶级网络，更低延迟+更高稳定性</p>
+            </li>
+            <li class="static_3 animated fadeInUp">
+                <i class="cloudHome cloudHome-tishengfuwu"></i>
+                <span>完善服务</span>
+                <p>无休技术保障支持，实时解决各类问题</p>
+            </li>
+        </ul>
+    </div>
+    <div class="server">
+        <div class="title">
+            <p>产品优势</p>
+        </div>
+        <div class="ly_defense">
+            <ul id='EventTab'>
+                <li class="ly_defense_active">
+                    <i class="cloudHome cloudHome-server"></i>降低成本                </li>
+                <li>
+                    <i class="cloudHome cloudHome-DDOSgongji"></i>安全可靠                </li>
+                <li>
+                    <i class="cloudHome cloudHome-iconfont-5"></i>多平台支持                </li>
+                <li>
+                    <i class="cloudHome cloudHome-zhinengyouhua"></i>轻松管理                </li>
+            </ul>
+        </div>
+        <div class="ly_width">
+            <div class='Di'>
+                <div class="ly_display_middle Middle0 Display">
+                    <div class="ly_server_img ly_server_img1">
+                        <div class="Graphics">
+                            <div class="Min_Grap">
+                                <div class="Slipt0">
+                                    <span>
+                                        <span>行业最低延迟</span>
+                                    </span>
+                                </div>
+                                <div class="Slipt1">
+                                    <span>
+                                        <span>CN2网络</span>
+                                    </span>
+                                </div>
+                                <div class="Slipt2">
+                                    <span>
+                                        <span>CC攻击防护</span>
+                                    </span>
+                                </div>
+                                <div class="Slipt3">
+                                    <span>
+                                        <span>秒级生效</span>
+                                    </span>
+                                </div>
+                                <div class="Max_Grap">
+                                    <div class="Min_ics">
+                                        <div class="yunduo"></div>
+                                    </div>
+                                </div>
+                                <div class="G_origin0"></div>
+                                <div class="G_origin1"></div>
+                                <div class="G_origin2"></div>
+                                <img class="dunpai" src="static/home/default/img/index/dunpai.png">
+                                <img class="fanghu" src="static/home/default/img/index/fanghu.png">
+                                <img class="weizhi" src="static/home/default/img/index/weizhi.png">
+                                <img class="app" src="static/home/default/img/index/app.png">
+                                <img class="baohu" src="static/home/default/img/index/baohu.png">
+                                <img class="duihao" src="static/home/default/img/index/duihao.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ly_server_text">
+                        <h1>按需弹性付费</h1>
+                        <p>传统的高防服务器价格高昂，而且付费不够灵活。<br>使用幻境系统对您的应用进行防护，<br>可以大幅降低您的服务器和防御成本</p>
+                        <span></span>
+                        <a href="/cdnbuy.html">立即购买</a>
+                    </div>
+                </div>
+                <div class="ly_display_middle Middle1 Display" style="display:none;">
+                    <div class="ly_server_img ly_server_img2">
+                        <span>立即购买</span>
+                        <span>立即购买</span>
+                        <span>立即购买</span>
+                        <span>立即购买</span>
+                        <div class="Min_Section">
+                            <div class="bottom_main">
+                                <img src="static/home/default/img/index/bottom.png">
+                            </div>
+                            <div class="left_main">
+                                <img src="static/home/default/img/index/left_main.png">
+                            </div>
+                            <div class="right_bottom">
+                                <img src="static/home/default/img/index/right_bottom.png">
+                            </div>
+                            <div class="top_bottom">
+                                <img src="static/home/default/img/index/top_bottom.png">
+                            </div>
+                            <div class="Octagonal">
+                                <img src="static/home/default/img/index/bajiao.png">
+                                <img src="static/home/default/img/index/bajiao.png">
+                                <img src="static/home/default/img/index/bajiao.png">
+                            </div>
+                            <div class="top_main">
+                                <img src="static/home/default/img/index/top_main.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ly_server_text">
+                        <h1>防御流量冲击—无限抗DDoS、CC攻击</h1>
+                        <p>幻境系统使用先进的分布式防御体系，<br>可以有效降低DDoS攻击的威胁，<br>保障客户的业务安全可靠的运行</p>
+                        <span></span>
+                        <a href="/chat.html" target="_blank">立即购买</a>
+                    </div>
+                </div>
+                <div class="ly_display_middle Middle2 Display" style="display:none;">
+                    <div class="ly_server_img ly_server_img3">
+                        <div class="yuan">
+                            <img src="static/home/default/img/index/0011.png">
+                        </div>
+                        <div class="yuan1">
+                            <img src="static/home/default/img/index/0002.png">
+                        </div>
 
-        <!-- Plugins js -->
-        <script src="js/plugins.js" type="text/javascript"></script>
-        
-        <!-- Bootstrap js -->
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+                        <div class="yuan3">
+                            <img src="static/home/default/img/index/0007.png">
+                        </div>
+                        <span>DDOS</span>
+                    </div>
+                    <div class="ly_server_text ly_server_text3">
+                        <h1>兼容当下主流操作系统</h1>
+                        <p>支持Windows、Android、iOS平台，支持HTTP、WebSocket等TCP协议</p>
+                        <span></span>
+                        <a href="/chat.html" target="_blank">立即购买</a>
+                    </div>
+                </div>
+                <div class="ly_display_middle Middle3 Display" style="display:none;">
+                    <div class="ly_server_img ly_server_img4">
+                        <img src="static/home/default/img/index/cloud1.png">
+                    </div>
+                    <div class="ly_server_text">
+                        <h1>界面有好的可视化控制台</h1>
+                        <p>提供专业的控制管理后台，您可以轻松掌控您的应用<br>可通过数据可视化呈现攻击情况</p>
+                        <span></span>
+                        <a href="/serverBuy.html">立即购买</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="solution" id="solution">
+        <div class="title">
+            <p>多样灵活的云端防护服务</p>
+        </div>
+        <div class="ly_width">
+            <div class="ly_solution_error">
+                <ul class="flex">
+                    <li>
+                        <i class="cloudHome cloudHome-check-circle"></i>优化访问加速</li>
+                    <li>
+                        <i class="cloudHome cloudHome-check-circle"></i>攻击溯源</li>
+                    <li>
+                        <i class="cloudHome cloudHome-check-circle"></i>多维防护</li>
+                    <li>
+                        <i class="cloudHome cloudHome-check-circle"></i>服务瞬时生效</li>
+                </ul>
+            </div>
+            <div>
+                <ul class="ly_solution_list ly_display_middle">
+                    <li>
+                        <div class="ly_solution_list_ico">
+                            <div>
+                                <div class="ly_rectangle">
+                                    <img src="static/home/default/img/index/cloud25.png">
+                                </div>
+                            </div>
+                            <span>隐藏源服务器IP</span>
+                        </div>
+                        <p>
+                            <span class="G_title">隐藏源服务器IP</span>
+                            <span>隐藏用户源站信息，真实的源IP无法被黑客获取，避免黑客对其发动各类攻击！</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="ly_solution_list_ico">
+                            <div>
+                                <div class="ly_rectangle">
+                                    <img src="static/home/default/img/index/cloud22.png">
+                                </div>
+                            </div>
+                            <span>节点无缝切换</span>
+                        </div>
+                        <p>
+                            <span class="G_title">节点无缝切换</span>
+                            <span>在节点遭受攻击或者玩家网络闪断的情况下，可以实现无缝切换节点，保证玩家不掉线，业务不受影响。</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="ly_solution_list_ico">
+                            <div>
+                                <div class="ly_rectangle">
+                                    <img src="static/home/default/img/index/cloud24.png">
+                                </div>
+                            </div>
+                            <span>分布式防御体系</span>
+                        </div>
+                        <p>
+                            <span class="G_title">分布式防御体系</span>
+                            <span>通过分布式的虚拟节点将业务分散部署，将DDoS/CC攻击给业务带来的影响降到最低（适用C/S架构应用） </span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="ly_solution_list_ico">
+                            <div>
+                                <div class="ly_rectangle">
+                                    <img src="static/home/default/img/index/cloud23.png">
+                                </div>
+                            </div>
+                            <span>BGP网络加速</span>
+                        </div>
+                        <p>
+                            <span class="G_title">BGP网络加速</span>
+                            <span>使用多线BGP网络，对正常用户的网络访问进行加速，极大提升用户体验 </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner">
+                <div class="wave waveMiddle" style="background-image: url('static/home/default/img/index/waveBot.png')"></div>
+            </div>
+            <div class="waveWrapperInner">
+                <div class="wave waveBottom" style="background-image: url('static/home/default/img/index/waveBot.png')"></div>
+            </div>
+        </div>
+    </div>
+    <div class="ly_develop">
+        <div class="title">
+            <p>幻境云防御系统</p>
+            <span>
+                使用先进的防御体系，攻击者所有的请求都会进入虚拟防护节点上，通过每个节点自带的安全防护功能，<br> 进行流量清洗过滤，真实的服务器始终隐藏在幻境系统的防护之下，避免黑客对其发动攻击。由于使用分布式的防御体系，可以轻松瓦解大流量攻击。            </span>
+        </div>
+        <div class="ly_width">
+            <ul class="flex ly_display_top">
+                <li class="ly_develop_bottom">
+                    <div class="ly_develop_spot3">
+                        <span></span>
+                    </div>
+                    <p>按照接入文档客户端集成SDK文件</p>
+                </li>
+                <li class="ly_develop_top">
+                    <p>与验证服务器通信，进行身份信誉认证</p>
+                    <div class="ly_develop_spot4">
+                        <span></span>
+                    </div>
+                </li>
+                <li class="ly_develop_bottom">
+                    <div class="ly_develop_spot5">
+                        <span></span>
+                    </div>
+                    <p>按照算法分配一组可用节点IP返回给客户端SDK</p>
+                </li>
+                <li class="ly_develop_top">
+                    <p>创建加密隧道，通过虚拟IP进行数据加密通讯</p>
+                    <div class="ly_develop_spot6">
+                        <span></span>
+                    </div>
+                </li>
+                <li class="ly_develop_bottom">
+                    <div class="ly_develop_spot1">
+                        <span></span>
+                    </div>
+                    <p>所有的业务数据都通过节点机传给真实源服务器</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="map">
+        <div class="title">
+            <p>云加速与安全集群节点分布</p>
+            <span>致力于为用户提供真正安全可靠互联网环境的高效云端</span>
+        </div>
+        <div class="ly_width">
+            <div class="img_c" id="map" style="width: 1100px; height: 578px; margin: 0 auto;">
+                <img src="static/home/default/img/index/cloud26.png">
+                <div class="to_open">
+                    <span></span>
+                    <p>已开放区域</p>
+                </div>
+                <div class="Be_open">
+                    <span></span>
+                    <p>待开放区域</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	
 
-        <!-- Meanmenu Js -->
-        <script src="js/jquery.meanmenu.min.js" type="text/javascript"></script>
 
-        <!-- Counter Js -->
-        <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
-        <script src="js/waypoints.min.js" type="text/javascript"></script>
+    
+     <footer>
+    <div class="ly_footer_service">
+        <ul class="ly_width flex">
+            <li>
+                <img src="static/home/default/img/public/cloud18.png" ondragstart="return false">7X24 小时售后</li>
+            <li>
+                <img src="static/home/default/img/public/cloud19.png" ondragstart="return false">1V1 专属客服</li>
+            <li>
+                <img src="static/home/default/img/public/cloud20.png" ondragstart="return false">免费试用</li>
+            <li>
+                <img src="static/home/default/img/public/cloud21.png" ondragstart="return false">秒级交付</li>
+        </ul>
+    </div>
+    <div class="ly_footer_menu">
+        <div class="ly_footer_menu_style ly_width flex">
+            <div>
+                <p>服务内容</p>
+                <ul>
+                    <li>
+                        <a>幻境系统</a>
+                    </li>
+                    <li>
+                        <a>渗透测试</a>
+                    </li>
+                    <li>
+                        <a>数据灾备</a>
+                    </li>
+                    <li>
+                        <a>源码审计</a>
+                    </li>
+                    <li>
+                        <a>安全运维</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>帮助中心</p>
+                <ul>
+                    <li>
+                        <a>用户指南</a>
+                    </li>
+                    <li>
+                        <a>技术指南</a>
+                    </li>
+                    <li>
+                        <a>常见问题</a>
+                    </li>
+                    <li>
+                        <a>招贤纳士</a>
+                    </li>
+                    <li>
+                        <a>最新资讯</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>企业</p>
+                <ul>
+                    <li>
+                        <a>关于我们</a>
+                    </li>
+                    <li>
+                        <a>公司简介</a>
+                    </li>
+                    <li>
+                        <a>服务条款</a>
+                    </li>
+                    <li>
+                        <a>代理合作</a>
+                    </li>
+                    <li>
+                        <a>产品投诉</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>联系方式</p>
+                <ul>
+                    <li>
+                        <a>联系电话: </a>
+                    </li>
+                    <li>
+                        <a>客服QQ:</a>
+                    </li>
+                    <li>
+                        <a>邮箱:</a>
+                    </li>
+                    <li>
+                        <a>地址:</a>
+                    </li>
+                    <li>
+                        <a>值班电话</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p> </p>
+                <ul>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>保障服务</p>
+                <ul>
+                    <li>
+                        <a>极速故障恢复</a>
+                    </li>
+                    <li>
+                        <a>环式DDOS防护</a>
+                    </li>
+                    <li>
+                        <a>攻击1秒缓解</a>
+                    </li>
+                    <li>
+                        <a>高容量数据网络</a>
+                    </li>
+                    <li>
+                        <a>紧急安全保障</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="ly_footer_copy">
+        <div class="ly_width">
+            <div>
+                <a href="/">首页</a>
+                <a href="">最新活动</a>
+                <a href="">产品</a>
+                <a href="safety.html">安全保障</a>
+                <a href="ipprotection.html">关于我们</a>
+                <a href="new.html">新闻中心</a>
+            </div>
+            <P>Copyright 2017 All Rights Reserved. CleverCloud Copyright.</P>
+        </div>
+    </div>
+</footer>
 
-        <!-- WOW JS -->     
-        <script src="js/wow.min.js"></script>
+</body>
 
-        <!-- Nivo slider js -->     
-        <script src="vendor/slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="vendor/slider/home.js" type="text/javascript"></script>
-
-        <!-- Owl Cauosel JS -->
-        <script src="vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
-
-        <!-- Validator js -->
-        <script src="js/validator.min.js" type="text/javascript"></script>
-
-        <!-- Srollup js -->
-        <script src="js/jquery.scrollUp.min.js" type="text/javascript"></script>
-        
-        <!-- Custom Js -->
-        <script src="js/main.js" type="text/javascript"></script>
-
-    </body>
 </html>
-
