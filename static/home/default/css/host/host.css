@@ -1,0 +1,740 @@
+body {
+    min-width: 1240px;
+}
+
+.server_banner {
+    width: 100%;
+    height: 530px;
+    min-width: 1240px;
+    background: url(../../img/host/hostBanner.png) center center no-repeat;
+}
+
+.product_banner_main {
+    width: 1200px;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.product_banner_main h1 {
+    font-size: 40px;
+    letter-spacing: 6px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.product_banner_main p {
+    width: 540px;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 5px 0;
+}
+
+.product_banner_txt {
+    color: #faf32c;
+    font-size: 14px;
+}
+
+.product_banner_btn button {
+    color: #FFF;
+    width: 120px;
+    height: 30px;
+    margin-top: 45px;
+    cursor: pointer;
+    background: none;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+}
+
+.product_banner_btn a:first-child button {
+    margin-right: 160px;
+    background: #2984dd;
+    border: 1px solid #2984dd;
+}
+
+.product_banner_btn a:nth-child(2) button {
+    margin-right: 160px;
+    border: 1px solid #fff;
+}
+
+.product_banner_main a:first-child button:hover {
+    opacity: 0.8;
+}
+
+.product_banner_main a:nth-child(2) button:hover {
+    color: #000;
+    background: #FFF;
+}
+
+/* 无限防流量 */
+
+.host_flow {
+    min-width: 1240px;
+    padding-bottom: 60px;
+}
+
+.process-box {
+    width: 1200px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+/*.process-box ul li {
+	height: 240px;
+	width: 30%;
+	margin: 1%;
+	cursor: pointer;
+	padding: 50px 0 0;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #d6e8f9;
+}*/
+
+.process-box ul li .host_flow_hover {
+    height: 240px;
+    z-index: 4;
+    position: absolute;
+    left: -3px;
+    top: -4px;
+    display: none;
+}
+
+.process-box ul li:hover .host_flow_hover {
+    display: block;
+}
+
+.host_flow_con i {
+    color: #328cdf;
+    font-size: 60px;
+}
+
+.host_flow_con div {
+    height: 2px;
+    width: 30px;
+    background: #328cdf;
+    display: inline-block;
+}
+
+.host_flow_con h5 {
+    color: #333;
+    font-size: 16px;
+    padding: 30px 0 0;
+}
+
+.host_flow_hover {
+    width: 100%;
+    height: 240px;
+    margin: 1%;
+    color: #FFF;
+    padding-top: 15px;
+    cursor: pointer;
+    text-align: left;
+    background: -webkit-linear-gradient(left top, #7dcaf6, #64a0e3, #6d8ddf);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom right, #7dcaf6, #64a0e3, #6d8ddf);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom right, #7dcaf6, #64a0e3, #6d8ddf);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom right, #7dcaf6, #64a0e3, #6d8ddf);
+    /* 标准的语法（必须放在最后） */
+}
+
+.host_flow_hover h4 {
+    padding: 40px 0 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.host_flow_hover p {
+    font-size: 12px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* 清洗CC防御 */
+
+.host_defense {
+    min-width: 1240px;
+    background: #f5f7f9;
+}
+
+.host_defense_main {
+    min-width: 1240px;
+    padding-bottom: 80px;
+    background: url(../../img/product/serverSceneBg.png) bottom center no-repeat;
+}
+
+.host_defense_con {
+    width: 1200px;
+    text-align: center;
+    margin: 40px auto 0;
+}
+
+.host_defense_con li {
+    width: 47%;
+    display: inline-block;
+    margin: 1%;
+    text-align: left;
+    background: #FFF;
+    padding: 15px 0;
+}
+
+.host_defense_con li div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.host_defense_con li div:first-child {
+    width: 31%;
+    text-align: center;
+}
+
+.host_defense_con li div:last-child {
+    width: 67%;
+}
+
+.host_defense_con li div:last-child p {
+    color: #5f5e5e;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* 常规优势 */
+
+.host_advantange_main {
+    padding-bottom: 50px;
+}
+
+.host_advantange_main h5 {
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0 50px;
+}
+
+.host_advantange_con {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.host_advantange_con li {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4%;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.host_advantange_con li:last-child {
+    float: left;
+    margin-left: 10px;
+}
+
+.host_advantange_con li div {
+    display: inline-block;
+}
+
+.host_advantange_con li div:first-child {
+    width: 31%;
+    vertical-align: top;
+}
+
+.host_advantange_con li div:last-child {
+    width: 67%;
+}
+
+.host_advantange_con li div:last-child h2 {
+    color: #333;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.host_advantange_con li div:last-child p {
+    color: #666;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.x-cash {
+    color: #ffc333;
+    font-size: 14px !important;
+}
+
+.title .x-fu-title {
+    font-size: 14px;
+    color: #696969;
+    margin-top: 10px;
+}
+
+.server_mo_1_li {
+    margin-top: 80px;
+}
+
+.server_mo_1_li li {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid #dddddd;
+    margin-right: 100px;
+    color: #2984dd;
+    font-size: 20px;
+}
+
+.server_mo_1_li li:last-child {
+    margin-right: 0;
+}
+
+.server_mo_1_li li:hover {
+    background: rgba(221, 221, 221, 0.8);
+}
+
+.host_flow_wash_ul {
+    text-align: left;
+}
+
+.host_flow_wash_ul li {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    background: #FFF;
+}
+
+.contr {
+    background: #e3e3e3;
+    color: #5f5e5e;
+    display: inline-block;
+    padding: 25px 20px;
+    font-size: 16px;
+}
+
+.contr_p {
+    display: inline-block;
+    color: #5f5e5e;
+    padding-left: 75px;
+    font-size: 14px;
+}
+
+.pc-mod-product-scene-item {
+    list-style: none;
+    float: left;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    width: calc(50% - 10px);
+    height: 200px;
+    margin: 8px 5px;
+}
+
+.pc-mod-product-scene-item .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 25px 55px;
+    text-align: left;
+}
+
+.pc-mod-product-scene-bg {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background: #68afff;
+    top: 200px;
+    left: 0;
+    font-size: 0;
+}
+
+.mod-3-title {
+    font-size: 18px;
+    color: #3d76dc;
+    padding: 10px 0 20px 0;
+}
+
+.mod-3-p {
+    color: #5f5e5e;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.server_mo_4_li li {
+    background: #2984dd;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+    padding: 8px 0;
+}
+
+.server_mo_4_li li:hover {
+    opacity: 0.8;
+}
+
+.server_mo_4_li {
+    margin-top: 25px;
+}
+
+.server_mo_4_li li:last-child {
+    margin-right: 0;
+}
+
+.server_mo_4_li li span {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.server_mo_5_li {}
+
+.server_mo_5_li li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    position: relative;
+    width: calc(30% - 10px);
+    margin: 8px 5px;
+}
+
+.step-buy-info {
+    background-color: #fff;
+    width: calc(30% - 10px);
+    margin-right: 5px;
+    display: inline-block;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.buy-info-title-box {
+    padding-bottom: 20px;
+    *border: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+
+.buy-info-title-box {
+    padding-bottom: 20px;
+    *border: 1px solid #ccc;
+    border: 1px solid #ccc\9;
+}
+
+.config-row {
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.config-row span:first-child {
+    width: 50%;
+}
+
+.buy-info-title {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    padding-top: 25px;
+    *padding-left: 0px;
+    background: #2984dd;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.buy-info-title h4 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.buy-info-title h4 span {
+    display: inline-block;
+    *display: inline;
+    padding-bottom: 8px;
+    padding: 5px 15px;
+    border-bottom: 4px solid #fff;
+}
+
+.buy-info-title p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.buy-info-title .hot {
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+
+.config-box {
+    padding-top: 15px;
+}
+
+.config-box .config-info {
+    margin: 5px auto;
+    margin-top: 10px;
+    width: 170px;
+    height: 36px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.config-info span.conifg-time {
+    display: inline;
+    color: #ff3300;
+}
+
+.original-price {
+    text-align: center;
+    color: #999;
+}
+
+.config-price {
+    text-align: center;
+    color: #ff6600;
+    margin: 25px 0;
+}
+
+.config-name {
+    color: #222;
+    display: inline-block;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.orange,
+.config-name.orange {
+    color: #ff6600;
+}
+
+.config-buy-btn {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.config-buy-btn a {
+    display: inline-block;
+    width: 40%;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2984dd;
+    color: #fff;
+}
+
+.config-buy-btn a:hover {
+    opacity: 0.8;
+}
+
+.config-buy-btn-no a {
+    display: inline-block;
+    height: 45px;
+    padding: 0 70px;
+    line-height: 45px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ddd !important;
+    color: #666 !important;
+    cursor: not-allowed;
+}
+
+.now-price {
+    font-weight: 700;
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.footer_top_reg {
+    background: #2984dd;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer_top_reg p {
+    font-size: 30px;
+    padding: 50px 0 20px 0;
+}
+
+.footer_top_reg a {
+    border: 1px solid #fff;
+    padding: 9px 25px;
+    color: #fff;
+}
+
+.footer_top_reg a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.step-buy-info:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0)
+}
+
+.host_flow_wash_pro {
+    background: #e8e8e8;
+    padding-bottom: 120px;
+}
+
+/*多维度基础保障设施*/
+
+.lyFacilities {
+    width: 100%;
+    text-align: center;
+}
+
+.lyFacilities div {
+    width: 306px;
+    height: 254px;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    border: 1px solid #BFBFBF;
+}
+
+.lyFacilities div:hover {
+    border: 1px solid #0076EF;
+}
+
+.lyFacilities p {
+    margin: 15px 0;
+    color: #5F5E5E;
+    font-size: 20px;
+}
+
+.lyFacilities span {
+    font-size: 15px;
+    color: #5F5E5E;
+}
+
+/*丰富的产品功能*/
+
+.lyFunction {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #C9C9C9;
+}
+
+.lyFuncionTop {
+    padding: 20px;
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.lyFunText p {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.lyFunText span {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.lyFunText span:before {
+    top: -1px;
+    width: 8px;
+    height: 8px;
+    content: '';
+    margin-right: 5px;
+    position: relative;
+    border-radius: 50%;
+    background: #C3C3C3;
+    display: inline-block;
+}
+
+.lyFunInput {
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #0076EF;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #0076EF;
+}
+
+.lyFunInput:hover {
+    color: #fff;
+    background: #0076EF;
+}
+
+.lyFunInput span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.lyFuncionBottom {
+    display: none;
+    padding: 20px;
+    line-height: 35px;
+    box-shadow: 0 0 10px #ccc inset;
+}
+
+.lyFuncionBottom span {
+    width: 130px;
+    color: #0076EF;
+    display: inline-block;
+}
+
+.img_c {
+    position: relative;
+    /* background: red; */
+}
+
+.img_c img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#map_svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.current_top path {
+    fill: none;
+    stroke: #3BC1A2;
+    stroke-width: 2px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+    /*animation: dash 2s linear forwards;*/
+}
+
+.animat {
+    display: none;
+}
+
+#switch {
+    text-align: center;
+}
+
+#switch>ul>li {
+    border: 1px solid #0572CE;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#switch_Li {
+    background: #0572CE;
+}
+
+.ly_nei_1 {
+    display: none;
+}

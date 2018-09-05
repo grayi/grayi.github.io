@@ -1,0 +1,133 @@
+.about_banner {
+    height: 533px;
+    width: 100%;
+    min-width: 1240px;
+    background: url(../../img/about/aboutBanner.jpg) center -90px no-repeat;
+}
+
+.about_banner_main {
+    width: 1200px;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.about_banner_main h1 {
+    font-size: 40px;
+    letter-spacing: 6px;
+    padding-top: 180px;
+}
+
+.about_banner_main h6 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 30px 0 47px;
+}
+
+.about_banner_main button {
+    color: #FFF;
+    cursor: pointer;
+    background: none;
+    padding: 8px 28px;
+    border: 1px solid #FFF;
+}
+
+.about_banner_main button:hover {
+    color: #000;
+    background: #FFF;
+}
+
+.about_guarantee {
+    min-width: 1240px;
+    padding-bottom: 80px;
+    background: url(../../img/about/aboutGuaranteeBg.jpg) bottom center no-repeat;
+}
+
+.about_guarantee_con {
+    color: #666;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.about_guarantee_main {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about_guarantee_main li {
+    width: 28%;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about_guarantee_main li img {
+    margin-top: -65px;
+}
+
+.about_guarantee_main li h3 {
+    color: #333;
+    font-size: 22px;
+    padding-top: 28px;
+}
+
+.about_guarantee_main li p {
+    color: #666;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    padding: 19px 25px 30px;
+}
+
+.about_guarantee_main li div {
+    background: #FFF;
+    min-height: 240px;
+    border: 1px solid #c5d2f0;
+}
+
+.about_deploy {
+    padding-bottom: 90px;
+}
+
+.about_deploy_main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about_deploy_main li {
+    width: 28%;
+    margin: 0 2%;
+    display: inline-block;
+}
+
+.about_deploy_main li div h3 {
+    color: #666;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.about_deploy_dis {
+    padding-top: 120px;
+}
+
+.about_introduce {
+    min-width: 1240px;
+    padding-bottom: 50px;
+    background: #efefef;
+}
+
+.about_introduce_con {
+    width: 60%;
+    color: #666;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}

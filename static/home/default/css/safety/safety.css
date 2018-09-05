@@ -1,0 +1,268 @@
+.defense_banner {
+    height: 520px;
+    width: 100%;
+    min-width: 1240px;
+    background: url(../../img/host/hostBanner.png) center -90px no-repeat;
+}
+
+.safety_banner {
+    height: 420px;
+    width: 100%;
+    min-width: 1240px;
+    background: url(../../img/host/hostBanner.png) center -90px no-repeat;
+}
+
+.safety_banner_main {
+    width: 1240px;
+    color: #FFF;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.safety_banner_main h1 {
+    font-size: 38px;
+    letter-spacing: 6px;
+    padding-top: 110px;
+}
+
+.safety_banner_main h6 {
+    width: 525px;
+    font-size: 15px;
+    padding: 17px 0 47px;
+    line-height: 28px;
+    font-family: "微软雅黑";
+}
+
+.safety_banner_main button {
+    color: #FFF;
+    cursor: pointer;
+    background: #66c010;
+    padding: 11px 55px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.safety_banner_main button:hover {
+    color: #000;
+    background: #FFF;
+}
+
+/* 基础设施与网络 */
+
+.safety_infrastructure {
+    width: 100%;
+    margin: -80px auto 0;
+}
+
+.safety_infrastructure_con {
+    min-width: 1240px;
+    border-bottom: 1px solid #ccc;
+}
+
+.safety_infrastructure_img {
+    text-align: center;
+    padding: 20px 0 50px;
+}
+
+/* 数据安全 */
+
+.safety_core {
+    min-width: 1240px;
+    padding-bottom: 80px;
+}
+
+.safety_core_con {
+    width: 1200px;
+    min-width: 1240px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.safety_core_con div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.safety_core_con_left {
+    width: 34%;
+    margin-right: 7%;
+    text-align: right;
+    position: relative;
+}
+
+.safety_core_con_right {
+    width: 55%;
+}
+
+.safety_core_con_right h3 {
+    font-size: 22px;
+}
+
+.safety_core_con_right span {
+    width: 78%;
+    color: #808080;
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.safety_core_con_right span:nth-child(2) {
+    padding: 30px 0 20px;
+}
+
+.safety_core_add {
+    width: 10%;
+}
+
+.safety_core_add {
+    left: 289px;
+    top: 217px;
+    position: absolute;
+}
+
+.safety_block {
+    width: 100%;
+    padding: 70px 0;
+    min-width: 1240px;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.safety_block_two {
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    min-width: 1240px;
+}
+
+.safety_block_con {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.safety_block_con div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*.safety_block_con img{
+    width: 70%;
+}
+*/
+
+.safety_block_one_left {
+    width: 36%;
+    text-align: left;
+    float: left;
+    /*margin-left: 10%;*/
+}
+
+.safety_block_one_left h3 {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.safety_block_one_left span {
+    width: 92%;
+    font-size: 16px;
+    color: #808080;
+    line-height: 27px;
+    display: inline-block;
+}
+
+.safety_block_one_right {
+    width: 30%;
+    text-align: center;
+}
+
+.safety_block_two_left {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.safety_block_two_right h3 {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.safety_block_two_right span {
+    width: 92%;
+    font-size: 16px;
+    color: #808080;
+    line-height: 27px;
+    display: inline-block;
+}
+
+.safety_block_two_right {
+    width: 39%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.safety_bottom {
+    width: 100%;
+    background: #f2f2f2;
+    padding: 60px 0 100px;
+    min-width: 1240px;
+}
+
+.safety_bottom_con {
+    width: 60%;
+    padding-left: 6%;
+    margin: 0 auto;
+    min-width: 1240px;
+}
+
+.safety_bottom_con h3 {
+    color: #5b5b5b;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.safety_bottom_con p {
+    color: #616161;
+    font-size: 14px;
+    line-height: 23px;
+    width: 35%;
+    padding-bottom: 50px;
+}
+
+.safety_bottom_text {
+    padding: 10px 0;
+}
+
+.safety_bottom_text span {
+    display: inline-block;
+    width: 28%;
+}
+
+.safety_bottom_text span:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    background: #86c35a;
+    border-radius: 50%;
+}
+
+.ipprotection_one_con {
+    width: 40%;
+}
+
+.ipprotection_one_text {
+    width: 55%;
+    margin-left: 3%;
+}
+
+.ipprotection_one_text span {
+    font-size: 14px;
+    line-height: 23px;
+    padding-bottom: 15px;
+}

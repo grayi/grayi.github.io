@@ -1,0 +1,345 @@
+.ly_bg {
+    min-width: 1240px;
+    background: #F6F7FC;
+}
+
+.ly_bg2 {
+    min-width: 1240px;
+    background: #F5F9FD;
+}
+
+.about_banner {
+    width: 100%;
+    min-width: 1240px;
+    background: #041F2D;
+}
+
+.about_banner_main {
+    width: 1240px;
+    color: #FFF;
+    height: 509px;
+    margin: 0 auto;
+    padding: 0 50px;
+    background: url(../../img/cdn/cloudBanner.png) #041F2D right center no-repeat;
+}
+
+.about_banner_main h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    padding-top: 105px;
+}
+
+.about_banner_main h6 {
+    width: 540px;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px 0 47px;
+}
+
+.product_banner_btn button {
+    color: #FFF;
+    width: 122px;
+    height: 36px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #FFF;
+}
+
+.product_banner_btn a button:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* 网站加速与防护面临的危机 */
+
+.ly_crisis {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.ly_crisis li {
+    width: 315px;
+    text-align: center;
+    background: #fff;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid #C5D2F0;
+}
+
+.ly_crisis img {
+    display: block;
+    margin: -80px auto 0;
+}
+
+.ly_crisis li:nth-child(2) {
+    margin: 0 120px;
+}
+
+.ly_crisis span {
+    font-size: 22px;
+    margin: 30px 0 20px;
+    display: inline-block;
+}
+
+.ly_crisis p {
+    color: #666;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+
+/* cloud.cc—AI创造的cdn防御基础 */
+
+.ly_defense li {
+    width: 575px;
+    height: 320px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid #D1DAE8;
+}
+
+.ly_defense li:nth-child(2n+1) {
+    margin-right: 45px;
+}
+
+.ly_defense div {
+    height: 147px;
+    font-size: 24px;
+    text-align: center;
+    background: #EBF4FC;
+}
+
+.ly_defense img {
+    top: 30px;
+    margin-right: 35px;
+    position: relative;
+}
+
+.ly_defense p {
+    color: #999;
+    padding: 35px 20px 0;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+/* cc防火墙—安全漏洞监测 */
+
+.ly_firewall {
+    margin-top: -30px;
+    padding-bottom: 80px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.ly_firewall li {
+    width: 222px;
+    color: #666;
+    margin: 32px 49px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.ly_firewall li:first-child {
+    margin-left: 0;
+}
+
+.ly_firewall li:last-child {
+    margin-right: 0;
+}
+
+.ly_firewall li:nth-child(4) {
+    margin-right: 0;
+}
+
+.ly_firewall li:nth-child(5) {
+    margin-left: 0;
+}
+
+.ly_shield {
+    height: 550px;
+    background: url('../../img/cdn/cloudCdn54.png') center center no-repeat;
+}
+
+.ly_shield>div {
+    width: 365px;
+    color: #999;
+    line-height: 25px;
+    position: relative;
+}
+
+.ly_shield>div>* {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.ly_shield>div>div {
+    width: 385px;
+}
+
+.ly_shield>div:nth-child(1) {
+    top: 80px;
+    width: 100%;
+}
+
+.ly_shield>div:nth-child(2) {
+    top: 30px;
+    left: -4px;
+    float: right;
+    width: 415px;
+}
+
+.ly_shield>div:nth-child(3) {
+    top: 330px;
+}
+
+.ly_shield>div:nth-child(3)>div {
+    width: 330px;
+}
+
+.ly_shield>div:nth-child(4) {
+    top: 230px;
+    right: 4px;
+    float: right;
+}
+
+.ly_shield>div:nth-child(4)>div {
+    width: 335px;
+}
+
+
+/* AI技术支持cdn加速基础 */
+
+.ly_accelerate {
+    text-align: center;
+}
+
+.ly_accelerate li {
+    width: 30%;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.ly_accelerate div {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.ly_accelerate span {
+    margin: 20px 0;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.ly_accelerate p {
+    color: #666;
+    width: 95%;
+    line-height: 25px;
+}
+
+.ly_accelerate li:nth-child(2) {
+    width: 34%;
+    margin: 0 25px;
+    padding: 0 25px;
+    border-left: 1px solid #C5D2F0;
+    border-right: 1px solid #C5D2F0;
+}
+
+
+/* cloud.cc的cdn技术优势 */
+
+.ly_advantage {
+    color: #666;
+    margin-bottom: 10px;
+    border: 1px solid #D1DAE8;
+    border-bottom: none;
+    text-align: center;
+}
+
+.ly_advantage>ul {
+    border-bottom: 1px solid #D1DAE8;
+}
+
+.ly_advantage>ul>li {
+    width: 33%;
+    line-height: 65px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.ly_advantagebg {
+    background: #F6F7FC;
+}
+
+
+/* AI技术的融入 */
+
+.ly_textbg {
+    height: 220px;
+    min-width: 1240px;
+    background: url('../../img/cdn/cloudCdn70.png') #041F2D center 50px no-repeat;
+}
+
+.ly_text {
+    color: #fff;
+    width: 1240px;
+    margin: 0 auto;
+    line-height: 28px;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.ly_text p{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* 覆盖全球高防cdn加速节点 */
+
+.ly_map {
+    text-align: center;
+}
+
+
+/* 覆盖全球高防cdn加速节点 */
+
+.ly_scene {
+    text-align: center;
+}
+
+.ly_scene li {
+    width: 260px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    background: #F5F9FD;
+    margin: 0 48px 28px 0;
+    border: 1px solid #D1DAE8;
+}
+
+.ly_scene img{
+    top: 16px;
+    position: relative;
+}
+
+.ly_scene li:nth-child(4) {
+    margin-right: 0;
+}
+
+.ly_scene li:nth-child(8) {
+    margin-right: 0;
+}

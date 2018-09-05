@@ -1,0 +1,277 @@
+﻿/*圣诞节特效*/
+
+.nav_logo,
+.nav_menu {
+  z-index: 1000;
+  position: relative;
+}
+
+.nav_menu_active a:hover {
+  color: #fff;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+nav {
+  width: 100%;
+  min-width: 1240px;
+  line-height: 60px;
+}
+
+.nav {
+  top: 0px;
+  position: fixed;
+  z-index: 2003;
+}
+
+.nav>.ly_width {
+  position: relative;
+  z-index: 2003;
+}
+
+.nav_logo>a>img {
+  vertical-align: middle;
+}
+
+.nav_logo>img:last-child {
+  margin-left: 20px;
+}
+
+.nav_menu {
+  padding-left: 30px;
+  width: calc(100% - 150px);
+}
+
+.nav_menu a {
+  color: #fff;
+  padding: 0 20px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.nav_menu a:hover {
+  color: #3e95ee;
+}
+
+.ly_nav_menu li {
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.ly_nav_menu li:hover {
+  border-bottom: 2px solid #4195ee;
+}
+
+.ly_nav_login span {
+  top: 2px;
+  width: 1px;
+  content: "";
+  height: 15px;
+  position: relative;
+  background: #63757f;
+  display: inline-block;
+}
+
+/*下拉部分*/
+
+.ly_active_down {
+  cursor: pointer;
+}
+
+.nav_bgcolor {
+  background: #032e4c;
+}
+
+.ly_hr {
+  width: 100%;
+  height: 1px;
+  z-index: 99;
+  display: none;
+  position: absolute;
+  background: #466174;
+}
+
+.nav_down {
+  top: 0;
+  left: 0;
+  height: 0;
+  z-index: 9;
+  width: 100%;
+  overflow: hidden;
+  /*display: none;*/
+  position: absolute;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.nav_down_ku {
+  width: 1200px;
+  margin: 73px auto 0;
+}
+
+.nav_down_tit {
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.nav_down_ment {
+  margin-top: 30px;
+  min-height: 190px;
+  display: inline-block;
+  border-right: 1px solid #6f6f6f;
+}
+
+.nav_down_ment>ul {
+  padding: 5px 0 0 50px;
+}
+
+.nav_down_ment>ul>li {
+  padding: 0 20px;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  background: #393d40;
+  margin-bottom: 20px;
+}
+
+.nav_down_ment>ul>li:hover {
+  background: #31aff0;
+}
+
+.nav_down_project {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.dropdown {
+  background: #052943;
+  width: 100%;
+  height: 63px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: none;
+  z-index: 99;
+}
+
+.nav_down_project>a {
+  color: #fff;
+  width: 380px;
+  height: 74px;
+  line-height: 35px;
+  padding-left: 25px;
+  padding-top: 5px;
+  vertical-align: top;
+  background: #1d435e;
+  display: inline-block;
+  margin: 0 16px 22px 0;
+}
+
+.nav_down_project>a>p {
+  font-size: 14px;
+  color: #7d8c99;
+}
+
+.nav_down_project a:hover {
+  color: #fff;
+  background: #2797d3;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.nav_down_project a:hover p {
+  color: #fff;
+}
+
+/*.nav_down_project > a > * {
+  display: inline-block;
+  vertical-align: middle;
+}*/
+
+.nav_hot {
+  width: 32px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  display: inline-block;
+  background: #f73c01;
+  font-size: 12px;
+  position: relative;
+  margin-left: 10px;
+  top: -3px;
+}
+
+.nav_hot:before {
+  content: "";
+  width: 0;
+  height: 0;
+  right: 32px;
+  top: 5px;
+  position: absolute;
+  display: inline-block;
+  border-top: 4px solid transparent;
+  border-right: 8px solid #f73c01;
+  border-bottom: 4px solid transparent;
+}
+
+.nav_new {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-size: 14px;
+  background: #ff7200;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.nav_buy {
+  color: #cbd4da;
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  padding-right: 15px;
+}
+
+.nav_buy i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.ly_lang {
+  width: 100px;
+  height: 35px;
+  margin-top: 14px;
+  margin-right: 20px;
+  line-height: 32px;
+  display: inline-block;
+  border: 1px solid #355870;
+}
+
+.ly_lang:hover {
+  border: 1px solid #8599a7;
+}
+
+.ly_lang>*>* {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.ly_lang i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.ly_lang a {
+  padding: 0;
+  display: none;
+  text-align: center;
+}
+
+.ly_lang a:hover {
+  color: #fff;
+  display: none;
+}

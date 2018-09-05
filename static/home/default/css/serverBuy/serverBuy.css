@@ -1,0 +1,592 @@
+nav{
+    background: #043150;
+}
+
+body {
+    font-size: 12px;
+    background: #FFF;
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+}
+
+.loading {
+    width: 40px;
+    height: 40px;
+}
+
+.ly_elastic_shop {
+    width: 67%;
+    margin: 75px auto 0;
+    background: #fff;
+}
+
+.ly_elastic_shop_title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.ly_elastic_shop_title>span:first-child {
+    color: #5979b0;
+    font-size: 22px;
+}
+
+.ly_elastic_shop_title>span:last-child {
+    color: #5979b0;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.ly_elastic_shop_title>span:last-child>a {
+    float: right;
+    color: #5979b0;
+    padding: 0 20px;
+    line-height: 35px;
+    border: 1px solid #5979b0;
+}
+
+.ly_elastic_modu {
+    width: 100%;
+    color: #333;
+    margin-bottom: 25px;
+    border: 1px solid #e5eaf2;
+}
+
+.server_buy_storage {
+    position: relative;
+}
+
+.server_buy_storage_tit {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid #e5eaf2;
+    background-color: #f1f8fe;
+}
+
+.server_buy_storage_tit span {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    color: #7392cd;
+}
+
+.ly_elastic_modu_content {
+    padding: 10px 0;
+    width: calc(100% - 57px);
+}
+
+.ly_elastic_modu>.ly_elastic_modu_title,
+.ly_elastic_modu_content {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.server_buy_storage_con {
+    margin-left: 103px;
+}
+
+.server_buy_title {
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 11px;
+    width: 10%;
+    text-align: right;
+}
+
+.ly_region {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.buy_tab li {
+    display: inline-block;
+}
+
+.buy_tab>li>a {
+    color: #477de3;
+    margin-right: 10px;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.42857143;
+    border: 1px solid #6392e9;
+        position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.buy_tab>li.active>a,
+.buy_tab>li.active>a:hover,
+.buy_tab>li.active>a:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #6392e9;
+    border-bottom-color: transparent;
+}
+.buy_tab>li.isdisabled{
+    cursor: not-allowed;
+}
+
+.buy_tab>li.active.isdisabled{
+    cursor: auto;
+}
+
+
+
+.button-group {
+    float: left;
+    border: 0px;
+}
+
+
+.button-group a {
+    float: left;
+    position: relative;
+    z-index: 10;
+    width: 80px;
+    height: 40px;
+    margin-left: -1px;
+    background-color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #4c4c4c;
+    cursor: pointer;
+    margin-right: 2px;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.selected {
+    border: none !important;
+    color: #fff !important;
+    background: #6392e9 !important;
+}
+
+
+.button-group>a:hover {
+    border: 1px solid #6392e9;
+}
+
+
+/*一部分*/
+
+.ly_region p {
+    font-size: 14px;
+    padding-top: 9px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.server_add_text_red {
+    color: #ff854d;
+}
+
+
+/*滑动条*/
+
+.config-tier-panel .config-row:first-child {
+    margin-top: 0;
+}
+
+.butBox2 {
+    margin-top: 10px;
+}
+
+.selectDisk {
+    position: relative;
+}
+
+.slider-length-middle {
+    width: 460px;
+}
+
+.defense_right.ui-slider-horizontal,
+.defense_right .ui-slider-range {
+    border-radius: 0;
+}
+
+.ui-slider-horizontal {
+    height: 26px;
+    border-radius: 30px;
+    background-color: #ececec;
+}
+
+.ui-slider {
+    position: relative;
+    z-index: 10;
+}
+
+.ui-slider-range {
+    position: absolute;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    background: #6392e9;
+
+    transition: width .2s;
+    -moz-transition: width .2s;
+    -webkit-transition: width .2s;
+    -o-transition: width .2s;
+}
+
+.defense_right {
+    height: 15px;
+}
+
+.defense_right .ui-slider-handle {
+	position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    height: 19px;
+    width: 12px;
+    background: #6392e9;
+    top: -2px;
+    outline: none;
+}
+
+.ui-slider-handle {
+    transition: left .2s;
+    -moz-transition: left .2s;
+    -webkit-transition: left .2s;
+    -o-transition: left .2s;
+}
+
+.defense_right .ui-slider-line {
+    height: 0;
+}
+
+.selectDisk .x-number-container {
+    position: absolute;
+    left: 527px;
+    top: 0;
+    width: 140px;
+    height: 33px;
+}
+
+
+/* ny-number组件 */
+
+.ny-number-container {
+    float: left;
+    line-height: 1;
+}
+
+.number-input-box {
+    float: left;
+    position: relative;
+    width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.number-input-box input {
+    height: 30px;
+    width: 50px;
+    border: none;
+    line-height: 30px;
+}
+
+.ny-number-unit {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #999;
+    text-align: right;
+}
+
+.ny-number-control {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+}
+
+.ny-number-control span {
+    position: absolute;
+    left: 0;
+    z-index: 11;
+    width: 32px;
+    height: 15px;
+    background: no-repeat center;
+    cursor: pointer;
+}
+
+span.number-control-up {
+    top: 0;
+    background-image: url("../../img/buy/numberUp.png");
+}
+
+.number-control-up:hover {
+    background-image: url('../../img/buy/numberUpHover.png');
+}
+
+span.number-control-down {
+    bottom: 0;
+    background-image: url('../../img/buy/numberDown.png');
+}
+
+.number-control-down:hover {
+    background-image: url('../../img/buy/numberDownHover.png');
+}
+
+
+/*系统选择*/
+
+.selectButton {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    overflow: hidden;
+    z-index: 11;
+}
+
+.selectButton dl dt {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #333333;
+    border: 1px solid #049DE4;
+}
+
+.selectButton dl dt.close {
+    background-image: url('../../img/serverBuy/selectArrowDown.gif');
+}
+
+.selectButton dl dt.open {
+    background-image: url('../../img/serverBuy/selectArrowUp.gif');
+}
+
+.selectButton .select {
+    background: #fff;
+    position: absolute;
+    border: 1px solid #ddd;
+    border-top: none;
+    display: none;
+    overflow: hidden;
+}
+
+.selectButton .select ul li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.selectButton .select ul li.hover {
+    background: #f5f5f5;
+}
+
+.selectButton .show {
+    display: block;
+}
+
+.select-version {
+    margin-left: 10px;
+}
+
+.select-version dl dt {
+    width: 198px;
+    background-position: 220px 7px;
+    padding-left: 20px;
+}
+
+.systemButton dl dt {
+    width: 198px;
+    background-position: 135px 7px;
+}
+
+.systemButton dl dt span {
+    display: block;
+    float: left;
+    height: 50px;
+    text-indent: 10px;
+}
+
+.selectButton dl dt.selected .text {
+    text-indent: 0;
+}
+
+.selectButton dl dt.selected .ico {
+    width: 45px !important;
+}
+
+.systemButton dl dt .ico span {
+    width: 100%;
+    height: 26px;
+    margin-top: 2px;
+    background-image: url('../../img/serverBuy/system26.png');
+    background-repeat: no-repeat;
+    background-position: 100px top;
+}
+
+.systemButton dl dt .windows {
+    background-position: 5px top !important;
+}
+
+.systemButton dl dt .ubuntu {
+    background-position: 5px -90px !important;
+}
+
+.systemButton dl dt .centos {
+    background-position: 5px -60px !important;
+}
+
+.systemButton dl dt .debian {
+    background-position: 5px -30px !important;
+}
+
+.systemButton .select {
+    width: 198px;
+    height: 130px;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.select-version .select {
+    width: 198px;
+    height: 132px;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.select-version .select ul li {
+    padding-left: 20px;
+}
+
+.systemButton .select ul li {
+    white-space: nowrap;
+    padding-left: 45px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.systemButton .select ul li.hover {
+    background-color: #f5f5f5;
+}
+
+.systemVersionButton dl dt {
+    width: 160px;
+    padding-left: 20px;
+    background-position: 158px center;
+}
+
+.systemVersionButton dl dt span {
+    display: block;
+    float: left;
+    height: 30px;
+}
+
+.systemVersionButton .select {
+    width: 178px;
+}
+
+.systemVersionButton .select ul li {
+    padding-left: 20px;
+}
+
+.drop-open {
+    z-index: 20;
+}
+
+.close {
+    float: none;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.input-reset {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    padding-left: 10px;
+    line-height: 30px;
+    color: #4c4c4c;
+}
+
+.ly_cost>li {
+    vertical-align: top;
+    display: inline-block;
+}
+.price-title {
+    top: -2px;
+    width: 94px;
+    position: relative;
+}
+.config-view-item-title {
+    display: inline-block;
+    width: 98px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: normal;
+    color: #999;
+}
+.server-price {
+    font-size: 24px;
+}
+.text-stress {
+    color: #ff854d;
+}
+.strong {
+    font-weight: bold;
+}
+.rmb-symbol {
+    font-size: 16px;
+}
+.server_buy_config {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.server_buy_config span {
+    color: #999;
+    font-size: 14px;
+    margin-right: 7px;
+}
+.ly_style_10 {
+    float: right;
+}
+.server-buy-btn {
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #ff854d;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.buy-footer-fixed {
+    width: 1200px;
+    border: 1px solid #00aaff;
+    z-index: 20;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -600px;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 3px 5px #666;
+    -moz-box-shadow: 0 3px 5px #666;
+    box-shadow: 0 3px 5px #666;
+    background: #fff;
+}

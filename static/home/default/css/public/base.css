@@ -1,0 +1,29 @@
+﻿html{ color:#000; background:#fff; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}  
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{ margin:0; padding:0;}  
+body,button,input,select,textarea{font-family:tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1"!important;}  
+input,select,textarea{ font-size:100%;}  
+table{ border-collapse:collapse;border-spacing:0;}  
+th{ text-align:inherit;}  
+caption,th { text-align:left; }  
+fieldset,img{ border:0;}  
+input,button{outline:none}
+iframe{ display:block;}  
+ol,ul,li{ list-style:none;}  
+del{ text-decoration:line-through;}  
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:500;}  
+a{ text-decoration:none;}  
+*{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.clearFloat:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}  
+.clearFloat{ zoom:1;}  
+
+.trustedsite-floating-element{
+    display: none !important;
+}
+
+a[href="https://www.51.la/?comId=19360800"] {
+    display: none;
+}
+
+a[title*="51.La 网站流量统计系统"] {
+    display: none;
+}

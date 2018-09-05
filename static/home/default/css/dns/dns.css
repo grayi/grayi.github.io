@@ -1,0 +1,255 @@
+.ly_bg {
+    min-width: 1240px;
+    background: #F6F7FC;
+}
+
+.ly_bg2 {
+    min-width: 1240px;
+    background: #F5F9FD;
+}
+
+.about_banner {
+    width: 100%;
+    min-width: 1240px;
+    background: #041f2d;
+}
+
+.about_banner_main {
+    width: 1200px;
+    color: #FFF;
+    height: 462px;
+    margin: 0 auto;
+    padding: 0 50px;
+    background: url(../../img/dns/banner.png) #041F2D right no-repeat;
+}
+
+.about_banner_main h1 {
+    font-size: 40px;
+    letter-spacing: 6px;
+    padding-top: 130px;
+}
+
+.about_banner_main h6 {
+    width: 540px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 30px 0 47px;
+}
+
+.product_banner_btn button {
+    color: #FFF;
+    width: 122px;
+    height: 36px;
+    margin-top: 5px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #FFF;
+}
+
+.product_banner_btn a button:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* 网站加速与防护面临的危机 */
+
+.ly_crisis {
+    text-align: center;
+    margin: -10px 0 20px;
+}
+
+.ly_crisis li {
+    width: 350px;
+    text-align: center;
+    background: #fff;
+    vertical-align: top;
+    display: inline-block;
+    border: 1px solid #C5D2F0;
+}
+
+.ly_crisis img {
+    display: block;
+    margin: 20px auto 0;
+}
+
+.ly_crisis li:nth-child(2) {
+    margin: 0 30px;
+}
+
+.ly_crisis span {
+    font-size: 18px;
+    margin: 30px 0 45px;
+    display: inline-block;
+}
+
+.ly_crisis p {
+    color: #666;
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+/* 无限防智能dns的基础设施 */
+
+
+.modular_two{
+    min-width: 1240px;
+    background: url(../../img/dns/modularTwoBg.gif) #fafafa left bottom no-repeat;
+}
+
+.modular_two_con {
+    color: #FFF;
+    height: 500px;
+}
+
+.modular_two_con div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.modular_two_con_left{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.modular_two_con_left h3 {
+    font-size: 24px;
+    color: #5979b0;
+    padding: 40px 0 30px;
+}
+
+.modular_two_con_left span {
+    font-size: 16px;
+    color: #666;
+    line-height: 37px;
+    display: inline-block;
+}
+
+.modular_two_con_right{
+    margin-left: -3%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* 自由化自我管理 */
+
+.modular_four{
+    min-width: 1240px;
+    height: 820px;
+    background: url(../../img/dns/modularFourBg.png) left bottom no-repeat;
+}
+
+.modular_four p{
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.ly_rectangle{
+    padding: 55px 0 45px;
+}
+
+.ly_solution_list{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ly_solution_list li {
+  color: #fff;
+  font-size: 18px;
+  overflow: hidden;
+  margin-right: 10px;
+  text-align: center;
+  height: 508px;
+  display: inline-block;
+  width: calc(25% - 12px);
+  background: -webkit-linear-gradient(rgba(0, 170, 255, 0.5), rgba(0, 18, 254, 0.1)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(0, 170, 255, 0.5), rgba(0, 18, 254, 0.1)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(0, 170, 255, 0.5), rgba(0, 18, 254, 0.1)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(0, 170, 255, 0.5), rgba(0, 18, 254, 0.1)); /* 标准的语法（必须放在最后） */
+}
+
+.ly_solution_list li:last-child{
+    margin-right: 0;
+}
+
+.ly_solution_list_ico span {
+  margin-top: 20px;
+}
+
+.ly_solution_list li p {
+  width: 88%;
+  color: #c0c0c0;
+  margin: 47px auto 0;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+
+
+/* 无限防智能dns的基础设施 */
+
+.safety_block_con{
+    text-align: center;
+}
+
+.safety_block_con div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.safety_block_two_left{
+    width: 40%;
+    text-align: center;
+}
+
+.safety_block_two_right h3 {
+    font-size: 16px;
+    color: #444;
+}
+
+.safety_block_two_right span {
+    font-size: 12px;
+    color: #999;
+    line-height: 23px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+    display: inline-block;
+}
+
+.safety_block_two_right{
+    width: 57%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+
+/* 平台dns与您业务的同步提升 */
+
+.ly_scene{
+    text-align: center;
+}
+
+.ly_scene li {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    background: #F5F9FD;
+    margin: 0 28px 28px 0;
+    border: 1px solid #D1DAE8;
+}
+
+.ly_scene img{
+    padding-top: 7px;
+}
+
+.ly_scene li:nth-child(4) {
+    margin-right: 0;
+}
+
+.ly_scene li:nth-child(8) {
+    margin-right: 0;
+}

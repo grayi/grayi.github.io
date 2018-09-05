@@ -1,0 +1,165 @@
+﻿.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.ly_display_top,
+.ly_display_middle {
+  font-size: 0;
+}
+
+.ly_display_top > * {
+  font-size: 12px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.ly_display_middle > * {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ly_width {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.title {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.title p {
+  color: #5979b0;
+  font-size: 24px;
+}
+
+.title span {
+  color: #808080;
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.ly_margin {
+  margin-top: -21px;
+}
+
+.ly_modu {
+  width: 100%;
+  padding: 10px 0 60px;
+}
+
+/*字体颜色*/
+
+.ly_green {
+  color: #65d89b;
+}
+
+.ly_red {
+  color: #e66a6a;
+}
+
+/*聊天室*/
+
+.ly_chat {
+  top: 50%;
+  right: 30px;
+  width: 44px;
+  height: 44px;
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  text-align: center;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.ly_chat > * {
+  width: 44px;
+  height: 44px;
+  color: #1598fa;
+  display: block;
+  border: 2px solid #1598fa;
+}
+
+.ly_chat i {
+  font-size: 27px;
+}
+
+.ly_chat_t {
+  color: #1598fa;
+  line-height: 44px;
+  margin-top: -2px;
+}
+
+.ly_chat_i {
+  color: #fff;
+  line-height: 44px;
+  background: #1598fa;
+}
+
+.ly_chat_skype {
+  position: relative;
+}
+
+.ly_chat_txt {
+  position: absolute;
+  left: -218px;
+  top: -10px;
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  display: none;
+  padding: 5px 30px;
+  box-shadow: 0 0 10px #d6d6d6;
+}
+
+.ly_chat_txt i {
+  color: #1598fa;
+  margin-right: 5px;
+}
+
+.ly_chat_txt span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ly_chat_skype:hover .ly_chat_txt {
+  display: block;
+}
+
+.modal-backdrop {
+  z-index: 15;
+}
+
+/*注册页*/
+.onError,
+.onFocus {
+  left: calc(25% - 10px);
+  width: 50%;
+  height: 45px;
+  margin-top: 0;
+  font-size: 12px;
+  text-align: left;
+  line-height: 45px;
+  font-family: airal;
+}
+
+.onFocus {
+  color: #333;
+}
+
+.onError {
+  color: #ff5050;
+}

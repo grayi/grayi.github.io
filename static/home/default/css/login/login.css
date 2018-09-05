@@ -1,0 +1,139 @@
+﻿
+html {
+    background: #051f2e;
+}
+
+body {
+    min-width: 1240px;
+    background: url('../../img/login/xunyunLogin04.jpg') no-repeat;
+    background-size: cover;
+}
+
+.ly_login {
+    min-width: 1240px;
+    min-height: 700px;
+    background: url('../../img/login/xunyunLogin02.png') 200px center no-repeat;
+    background-size: 40%;
+}
+
+.ly_login_form {
+    left: 61%;
+    top: 150px;
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.ly_login_form>p {
+    color: #444;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.ly_login_form>div {
+    margin: 30px 0;
+    position: relative;
+}
+
+.ly_login_form>div>input {
+    width: 90%;
+    height: 50px;
+    margin: 0 5%;
+    padding: 0 40px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-shadow:0 0 1px 100px #fff inset;
+}
+
+.ly_login_form>div>input:focus {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #ccc,0 0 1px 100px #fff inset;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+}
+
+.ly_login_form>div>button {
+    width: 90%;
+    color: #fff;
+    height: 50px;
+    margin: 0 5%;
+    font-size: 18px;
+    padding: 0 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 10px;
+    border: 1px solid #367AD9;
+    background: -ms-linear-gradient(left, #68B2EE, #658DE6);
+    background: -moz-linear-gradient(left, #68B2EE, #658DE6);
+    background: -webkit-linear-gradient(left, #68B2EE, #658DE6);
+    background: -o-linear-gradient(left, #68B2EE, #658DE6);
+}
+
+.ly_login_form>div>button:hover {
+    background: #6691E7;
+}
+
+.ly_login_form>div>button:active {
+    background: #507CD8;
+}
+
+.ly_login_checkbox {
+    padding: 0 5%;
+    line-height: 13px;
+}
+
+.ly_login_button {
+    padding: 0 5%;
+    font-size: 13px;
+}
+
+.ly_login_button a {
+    color: #6693E7;
+}
+
+.ly_login_button a:hover {
+    color: #2467CB;
+}
+
+.ly_login_button>a {
+    float: right;
+}
+
+
+/*定位字体图标*/
+
+.cloudHome {
+    color: #C9C8C8;
+}
+
+.cloudHome-user2 {
+    top: 14px;
+    left: 30px;
+    font-size: 24px;
+    position: absolute;
+}
+
+.cloudHome-mima {
+    top: 18px;
+    left: 35px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.cloudHome-yanjing {
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.cloudHome-yanjing:hover {
+    color: #67A6EC;
+}

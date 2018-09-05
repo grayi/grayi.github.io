@@ -1,0 +1,193 @@
+﻿html {
+    background: #051f2e;
+}
+
+body {
+    min-width: 1240px;
+    background: url('../../img/login/xunyunLogin04.jpg') top top no-repeat;
+    background-size: cover;
+}
+
+.ly_register {
+    width: 50%;
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+    margin: 80px auto 0;
+    position: relative;
+    border-radius: 5px;
+}
+
+.ly_register>p {
+    color: #444;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.ly_register>div {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.ly_register>div>input {
+    width: 50%;
+    height: 50px;
+    margin: 0 25%;
+    padding: 0 30px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1px 100px #fff inset;
+}
+
+.ly_register>div>input:focus {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #ccc, 0 0 1px 100px #fff inset;
+    transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+}
+
+.ly_middle>input {
+    padding-left: 80px !important;
+}
+
+.ly_middle>span {
+    top: 0;
+    left: 26%;
+    width: 50px;
+    height: 50px;
+    color: #ACACAC;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    font-family: 'Microsoft YaHei';
+}
+
+.ly_code>span {
+    top: 0;
+    right: 25%;
+    width: 150px;
+    height: 50px;
+    color: #4A8FF1;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    font-family: 'Microsoft YaHei';
+}
+
+.ly_code>input {
+    padding-right: 170px !important;
+}
+
+.ly_button>button {
+    width: 50%;
+    color: #fff;
+    height: 50px;
+    margin: 0 25%;
+    font-size: 18px;
+    padding: 0 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 10px;
+    border: 1px solid #367AD9;
+    background: -ms-linear-gradient(left, #68B2EE, #658DE6);
+    background: -moz-linear-gradient(left, #68B2EE, #658DE6);
+    background: -webkit-linear-gradient(left, #68B2EE, #658DE6);
+    background: -o-linear-gradient(left, #68B2EE, #658DE6);
+}
+
+.ly_button>button:hover {
+    background: #6691E7;
+}
+
+.ly_button>button:active {
+    background: #507CD8;
+}
+
+.ly_agreement {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 15px;
+}
+
+.ly_agreement a {
+    color: #67AAEC;
+}
+
+.ly_agreement a:hover {
+    color: #367AD9;
+}
+
+.ly_fromerror {
+    top: 4px;
+    color: #666;
+    left: 77%;
+    padding: 5px 10px;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.ly_fromerror:before {
+    top: 11px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    border-right: 10px solid #E8E8E8;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.ly_fromerror:after {
+    top: 11px;
+    left: -8px;
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    border-right: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.ly_fromerror>span {
+    display: block;
+    line-height: 30px;
+}
+
+.ly_fromerror>span>i {
+    top: 4px;
+    font-size: 25px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.vertifyImg {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 16px;
+    right: 26%;
+    top: 9px;
+    margin-left: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ly_register>div>#vertify {
+    padding-right: 145px;
+}
