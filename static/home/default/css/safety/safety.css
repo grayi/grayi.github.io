@@ -2,14 +2,14 @@
     height: 520px;
     width: 100%;
     min-width: 1240px;
-    background: url(../../img/host/hostBanner.png) center -90px no-repeat;
+    background: url(../../img/host/hostBanner.png) center center no-repeat;
 }
 
 .safety_banner {
     height: 420px;
     width: 100%;
     min-width: 1240px;
-    background: url(../../img/host/hostBanner.png) center -90px no-repeat;
+    background: url(../../img/host/hostBanner.png) center center no-repeat;
 }
 
 .safety_banner_main {
