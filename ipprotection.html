@@ -114,20 +114,8 @@ a[href$='www.51.la/?19360800']{
                     <a href="about.html">关于我们</a>
                 </li>
             </ul>
-            <ul class="floatright ly_nav_login ly_display_middle" id="">
-                <li class="loginStatus">
-                    <a href="login.html">登录</a><span></span><a href="register.html">注册</a>                </li>
-            </ul>
-            <div class="ly_lang floatright">
-                <a class="lyLang1" href="?lang=zh-cn" style="display:block">
-                    <i class="cloudHome cloudHome-zhongguo"></i>
-                    
-                </a>
-                <a class="lyLang2" href="?lang=zh-hk" style="display:block">
-                    <i class="cloudHome cloudHome-diqiuyi"></i>
-                    英文
-                </a>
-            </div>
+            
+            
         </div>
     </div>
     <div class="ly_hr"></div>
@@ -140,9 +128,7 @@ a[href$='www.51.la/?19360800']{
                     <div class="nav_hot">
                         <span>Hot</span>
                     </div>
-                    <div class="nav_buy">
-                        <i class="cloudHome cloudHome-gouwu"></i>
-                        购买                    </div>
+                    
                     <p>利用人工智能创建的DDoS防火墙,无视任何CC</p>
                 </a>
             </div>
@@ -161,33 +147,12 @@ a[href$='www.51.la/?19360800']{
             <div class="nav_down_project">
                 <a href="#">
                     <span>幻境系统(CNAME版)</span>
-                    <div class="nav_buy">
-                        <i class="cloudHome cloudHome-gouwu"></i>
-                        购买                    </div>
+                    
                     <p>采用IP跳变技术,实现TCP层反向代理集群转发</p>
                 </a>
             </div>
-            <div class="nav_down_project">
-                <a href="#">
-                    <span>渗透测试</span>
-                    <div class="nav_buy">
-                        <i class="cloudHome cloudHome-gouwu"></i>
-                        购买                    </div>
-                    <p>进行黑盒白盒测试,对每个细节进行分析修复</p>
-                </a>
-            </div>
-            <div class="nav_down_project">
-                <a href="#">
-                    <span>源码审计</span>
-                    <div class="nav_new">
-                        <span>新品上线</span>
-                    </div>
-                    <div class="nav_buy">
-                        <i class="cloudHome cloudHome-gouwu"></i>
-                        购买                    </div>
-                    <p>快速寻找和解决代码库中的质量和安全问题</p>
-                </a>
-            </div>
+            
+            
         </div>
     </div>
 </nav>
@@ -229,7 +194,9 @@ a[href$='www.51.la/?19360800']{
             <div class="safety_block_two_right ipprotection_one_text">
                 <h3>APP集成SDK防御引擎</h3>
                 <span>支持Android、iOS、Windows系统</span>
-                <span>客户端只需要加入几行代码调用幻境系统的SDK文件，启动后会与验证服务器群进行身份验证，<span>采用了国密SM4+RSA的加密方式以及时间戳，KEY等进行信誉认证。 </span><span>验证通过后，从调度服务器读取被分配的中转机IP，并返回给客户端</span>
+                <span>客户端只需要加入几行代码调用幻境系统的SDK文件，启动后会与验证服务器群进行身份验证，
+采用了高级别的国产加密算法以及时间戳，KEY等方式进行信誉认证。</span> <span>验证通过后，从调度、存
+储服务器读取被分配的中转机IP，并返回给客户端。</span>
             </div>
         </div>
     </div>
@@ -237,29 +204,23 @@ a[href$='www.51.la/?19360800']{
         <div class="safety_block_con">
             <div class="safety_block_one_left">
                 <h3>智能分配与调度可用节点池</h3>
-                <span>调度服务器对IP地址池中的节点做健康检查，并按照智能调度算法排序，将IP池分为正常组和风险组，<span>正常情况下会给客户端返回一组可用节点机IP，一旦分配IP被打死，客户端再次请求将会分配风险组池中的IP，</span><span>如果依然被打死，此客户端将被加入黑名单，列入高风险客户端，同时不再给它分配任何IP节点，并将客户端IP以及特征码存储，以备后续定位反查攻击者。</span>
+                <span>调度、存储服务器主要对IP地址池中的节点做健康检查，并按照智能调度算法排序，将IP池分为正
+常组和风险组，正常情况下会给客户端返回一组可用中转机IP，一旦这组IP被打死，客户端再次请
+求将会分配风险组池中的IP，如果依然被打死，此客户端将被加入黑名单，列入高风险客户端，同
+时不再给它分配任何IP节点，并将客户端IP以及特征码存储，以备后续定位反查攻击者。</span>
             </div>
             <div class="safety_block_one_right">
                 <img src="static/home/default/img/defense/defense02.jpg">
             </div>
         </div>
     </div>
-    <div class="safety_block_two clearFloat">
-        <div class="safety_block_con">
-            <div class="safety_block_two_left">
-                <img src="static/home/default/img/defense/defense03.jpg">
-            </div>
-            <div class="safety_block_two_right">
-                <h3>行业最低的数据延迟</h3>
-                <span>幻境系统的数据中心网状集群式网络，在全球90%以上地区实现了50毫秒内数据往返的极高速度与效率标准，即使您的服务器面对海量的ddos冲击，也能确保平稳的性能。</span>
-            </div>
-        </div>
-    </div>
+    
     <div class="safety_block clearFloat">
         <div class="safety_block_con">
             <div class="safety_block_one_left">
                 <h3>加密传输任何数据</h3>
-                <span>客户端获取到分配的节点机IP后，创建隧道加密通讯，所有的数据都将被封装到隧道中，实现加密传输，由节点机发给源服务器。</span>
+                <span>客户端获取到分配的中转机IP后，创建隧道加密通讯，所有的业务数据都将被封装到隧道中，实现
+加密传输，由中转机发给源服务器</span>
             </div>
             <div class="safety_block_one_right">
                 <img src="static/home/default/img/defense/defense04.jpg">
@@ -288,17 +249,7 @@ a[href$='www.51.la/?19360800']{
             </div>
         </div>
     </div>
-    <div class="safety_block clearFloat" style="margin-left: 0">
-        <div class="safety_block_con">
-            <div class="safety_block_one_left">
-                <h3>数据透明化</h3>
-                <span>最新的数据显示面板，为您提供了攻击流量细节，包括攻击矢量及类型，并可按需求对流量进行分别统计。</span>
-            </div>
-            <div class="safety_block_one_right">
-                <img src="static/home/default/img/defense/defense08.jpg">
-            </div>
-        </div>
-    </div>
+    
     
      <footer>
     <div class="ly_footer_service">
