@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>幻境云防御系统</title>
+    <meta name="keywords" content="无限防云服务器,抗攻击服务器,流量清洗,ddos防护,cc防护," />
+    <meta name="description" content="平台无限防云服务器,抗ddos攻击服务器,网络攻击ddos防护,cc防护,彻底阻断ddos攻击,无上限流量清洗能力,创新cc防护规则,打造ddos防护安全保障体系"
+    />
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/base.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/build.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/nav.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/banner.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/news.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/footer.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/style.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/box.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/css/include/animate.css">
+<link href="static/home/default/common/css/ucComponent.css" rel="stylesheet">
+<link href="static/home/default/common/css/ucCommon.css" rel="stylesheet">
+<!-- iconfont -->
+<link rel="stylesheet" type="text/css" href="static/home/default/css/public/fontAwesome.css">
+<link rel="stylesheet" type="text/css" href="static/home/default/font/index/iconfont.css">
+<!-- javascript -->
+<script type="text/javascript" src="static/home/default/js/public/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="static/home/default/js/nav/nav.js"></script>
+<script type="text/javascript" src="static/home/default/js/public/Packing.js"></script>
+<script type="text/javascript" src="static/common/default/js/bootstrap.min.js"></script>
+<script src="static/common/default/js/template-web.js"></script>
+<!--对话框-->
+<script src="static/home/default/common/js/plugin/jQuery/dialog/jquery.dialog.js?skin=ucDialog"></script>
+<script src="static/home/default/common/js/common/X.js"></script>
+<!-- 站长代码 -->
+<!--
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?9470f729c1fb4da77f8bf57ba3fd421e";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19360800.js"></script>
+<noscript>
+    <a href=" " target="_blank">
+        <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19360800.asp" style="border:none" />
+    </a>
+</noscript>
+<style>
+a[href$='www.51.la/?19360800']{
+    display:none;
+}
+</style>
+-->
+    <!-- Only -->
+    <link rel="stylesheet" type="text/css" href="static/home/default/css/dns/dns.css">
+</head>
+
+<body>
+    <script>
+    //切换语言
+    $(function () {
+        function getLang() {
+            var Request = GetRequest();
+            if (Request.lang && Request.lang == 'zh-hk') {
+                $('.lyLang1').show();
+                $('.lyLang2').hide();
+            } else {
+                $('.lyLang2').show();
+                $('.lyLang1').hide();
+            }
+        }
+
+        function GetRequest() {
+            var url = location.search;
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+        getLang();
+    })
+</script>
+<div class="dropdown">
+</div>
+<nav class="nav">
+    <div class="ly_width ly_display_top">
+        <div class="nav_logo">
+            <a href="/">
+                <img src="static/home/default/img/public/logo.png" ondragstart="return false">
+            </a>
+        </div>
+        <div class="nav_menu">
+            <ul class="floatleft ly_nav_menu ly_display_middle">
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li class="ly_active_down">
+                    <a>产品介绍</a>
+                </li>
+                <li>
+                    <a href="index.html#solution">产品优势</a>
+                </li>
+                <li>
+                    <a href="ipprotection.html">实现原理</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+            
+
+        </div>
+    </div>
+    <div class="ly_hr"></div>
+    <div class="nav_down">
+        <div class="nav_down_ku">
+            <div class="nav_down_tit"></div>
+            <div class="nav_down_project">
+                <a href="cdn.html">
+                    <span>幻境系统(SDK版)</span>
+                    <div class="nav_hot">
+                        <span>Hot</span>
+                    </div>
+                    
+                    <p>利用人工智能创建的DDoS防火墙,无视任何CC</p>
+                </a>
+            </div>
+            <!-- <div class="nav_down_project">
+                <a href="/ddn.html">
+                    <span>DDN</span>
+                    <div class="nav_new">
+                        <span>新品上线</span>
+                    </div>
+                    <div class="nav_buy">
+                        <i class="cloudHome cloudHome-gouwu"></i>
+                        购买                    </div>
+                    <p></p>
+                </a>
+            </div> -->
+            <div class="nav_down_project">
+                <a href="dns.html">
+                    <span>幻境系统(CNAME版)</span>
+                    
+                    <p>采用IP跳变技术,实现TCP层反向代理集群转发</p>
+                </a>
+            </div>
+            
+            
+        </div>
+    </div>
+</nav>
+
+<script>
+    $(function () {
+        $(".xcd-top").click(function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500);
+        });
+    })
+</script>
+    <div class="about_banner ly_margin">
+        <div class="about_banner_main">
+            <h1>幻境系统-CNAME版</h1>
+            <h6>去中心化分布式安全解决方案，支持TCP/UDP/HTTP/HTTPS协议的多层智能防御算法</h6>
+            <div class="product_banner_btn">
+                <a href="dnsDomainList" target="_blank"><button>管理控制台</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="ly_modu">
+        <div class="title">
+            <p>无底线的攻击到底让您损失多少</p>
+            <span>业务系统经常无法访问，正常业务无法开展，原有客户群体大量流失。</span>
+        </div>
+        <div class="ly_width">
+            <div class="ly_crisis">
+                <ul>
+                    <li>
+                        <img src="static/home/default/img/dns/modularOne1.png" alt="">
+                        <span>猖獗的网络攻击让业务无法开展</span>
+                    </li>
+                    <li>
+                        <img src="static/home/default/img/dns/modularOne2.png" alt="">
+                        <span>网站解析过程被攻击干扰</span>
+                    </li>
+                    <li>
+                        <img src="static/home/default/img/dns/modularOne3.png" alt="">
+                        <span>多地域客户访问效果无法保障</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="ly_modu modular_two">
+        <div class="ly_width">
+            <div class="modular_two_con">
+                <div class="modular_two_con_left">
+                    <h3>WEB版本集群防御介绍</h3>
+                    <span>平台提供的智能dns解析服务，可以智能的判断访问您网站的用户来源以及行为，通过机器学习以及算法调度，将您的域名分别解析成不同的IP地址，根据用户的地域及运营商、恶意用户行为等信息，为其分配不同的访问线路。同时，利用均衡负载原理，全面分散ddos攻击威胁，让ddos“力不从心”。</span>
+                </div>
+                <div class="modular_two_con_right">
+                    <img src="static/home/default/img/dns/modularTwo.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ly_modu">
+        <div class="title">
+            <p>TCP/UDP版本集群防御介绍</p>
+        </div>
+        <div class="ly_width">
+            <div class="safety_block_con">
+                <div class="safety_block_two_left">
+                    <img src="static/home/default/img/dns/modularThree.png">
+                </div>
+                <div class="safety_block_two_right">
+                    <h3>无需源码集成</h3>
+                    <span>只需要将您客户端与服务端连接的业务IP或者域名解析到我方提供的CNAME别名即可，全部访问都通过我们的集群节点反向代理到您的业务服务器。</span>
+                    <h3>快速接入</h3>
+                    <span>十分钟即可完成接入，客户端和服务端无任何代码侵入，基于LVS+CNAME方式，通过Linux内核级技术实现，稳定性无可挑剔。</span>
+                    <h3>资源池流量攻击防护基础</h3>
+                    <span>首创资源池防护机制，每一个域名都可绑定上百个记录，并可自己设定其切换规则，当前记录遭到攻击并异常时，会瞬间实现记录切换，保障您的服务可永远面向正常用户，业务不再受到攻击干扰，流量攻击彻底失效</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="ly_modu">
+        <div class="title">
+            <p>平台dns与您业务的同步提升</p>
+        </div>
+        <div class="ly_width">
+            <ul class="ly_scene">
+                <li>
+                    <img src="static/home/default/img/dns/modularFive1.png" alt="">
+                    <p>云dns集群基础搭建</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive2.png" alt="">
+                    <p>资源池防护基础规则</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive3.png" alt="">
+                    <p>自主线路划分方式</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive4.png" alt="">
+                    <p>无限解析无限防护</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive5.png" alt="">
+                    <p>ddos攻击威胁加大</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive6.png" alt="">
+                    <p>业务极速扩展需求</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive7.png" alt="">
+                    <p>网民访问速度保障</p>
+                </li>
+                <li>
+                    <img src="static/home/default/img/dns/modularFive8.png" alt="">
+                    <p>消除业务地域问题</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+    <div class="ly_footer_service">
+        <ul class="ly_width flex">
+            <li>
+                <img src="static/home/default/img/public/cloud18.png" ondragstart="return false">7X24 小时售后</li>
+            <li>
+                <img src="static/home/default/img/public/cloud19.png" ondragstart="return false">1V1 专属客服</li>
+            <li>
+                <img src="static/home/default/img/public/cloud20.png" ondragstart="return false">免费试用</li>
+            <li>
+                <img src="static/home/default/img/public/cloud21.png" ondragstart="return false">秒级交付</li>
+        </ul>
+    </div>
+    <div class="ly_footer_menu">
+        <div class="ly_footer_menu_style ly_width flex">
+            <div>
+                <p>服务内容</p>
+                <ul>
+                    <li>
+                        <a>幻境系统</a>
+                    </li>
+                    <li>
+                        <a>渗透测试</a>
+                    </li>
+                    <li>
+                        <a>数据灾备</a>
+                    </li>
+                    <li>
+                        <a>源码审计</a>
+                    </li>
+                    <li>
+                        <a>安全运维</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>帮助中心</p>
+                <ul>
+                    <li>
+                        <a>用户指南</a>
+                    </li>
+                    <li>
+                        <a>技术指南</a>
+                    </li>
+                    <li>
+                        <a>常见问题</a>
+                    </li>
+                    <li>
+                        <a>招贤纳士</a>
+                    </li>
+                    <li>
+                        <a>最新资讯</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>企业</p>
+                <ul>
+                    <li>
+                        <a>关于我们</a>
+                    </li>
+                    <li>
+                        <a>公司简介</a>
+                    </li>
+                    <li>
+                        <a>服务条款</a>
+                    </li>
+                    <li>
+                        <a>代理合作</a>
+                    </li>
+                    <li>
+                        <a>产品投诉</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>联系方式</p>
+                <ul>
+                    <li>
+                        <a>联系电话: </a>
+                    </li>
+                    <li>
+                        <a>客服QQ:</a>
+                    </li>
+                    <li>
+                        <a>邮箱:</a>
+                    </li>
+                    <li>
+                        <a>地址:</a>
+                    </li>
+                    <li>
+                        <a>值班电话</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p> </p>
+                <ul>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                    <li>
+                        <a> </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>保障服务</p>
+                <ul>
+                    <li>
+                        <a>极速故障恢复</a>
+                    </li>
+                    <li>
+                        <a>环式DDOS防护</a>
+                    </li>
+                    <li>
+                        <a>攻击1秒缓解</a>
+                    </li>
+                    <li>
+                        <a>高容量数据网络</a>
+                    </li>
+                    <li>
+                        <a>紧急安全保障</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="ly_footer_copy">
+        <div class="ly_width">
+            <div>
+                <a href="/">首页</a>
+                <a href="">最新活动</a>
+                <a href="">产品</a>
+                <a href="safety.html">安全保障</a>
+                <a href="ipprotection.html">关于我们</a>
+                <a href="new.html">新闻中心</a>
+            </div>
+            <P>Copyright 2017 All Rights Reserved. ServsGuard Copyright.</P>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
